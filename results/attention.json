@@ -1,0 +1,3033 @@
+{
+ "texts": {
+  "dialogue": "ROMEO:\nBut soft! what light through yonder window breaks?\n\nJULIET:\nO Romeo, Romeo! wherefore art thou Romeo?",
+  "verse": "To be, or not to be, that is the question: whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune",
+  "modern": "The students trained a small language model on their laptop, and then they measured how well it could predict the next letter."
+ },
+ "uniform_baseline": {
+  "dialogue": {
+   "prev_token": 0.03985018109557442,
+   "self_token": 0.048740457196541326,
+   "word_start": 0.037682218966840514,
+   "n_word_start_positions": 51,
+   "last_space": 0.025176570291335562,
+   "n_last_space_positions": 69,
+   "punct_any": 0.10981654110187788,
+   "mean_lookback": 26.75
+  },
+  "verse": {
+   "prev_token": 0.03512170311578708,
+   "self_token": 0.04271917002038718,
+   "word_start": 0.016805932063489615,
+   "n_word_start_positions": 50,
+   "last_space": 0.02505026158431414,
+   "n_last_space_positions": 77,
+   "punct_any": 0.05034424183976791,
+   "mean_lookback": 31.5
+  },
+  "modern": {
+   "prev_token": 0.035339684614729125,
+   "self_token": 0.042995718863818574,
+   "word_start": 0.03444087058678389,
+   "n_word_start_positions": 60,
+   "last_space": 0.028212535816179225,
+   "n_last_space_positions": 81,
+   "punct_any": 0.01137601997750116,
+   "mean_lookback": 31.25
+  }
+ },
+ "runs": {
+  "gpt_modern_s1337": {
+   "text": {
+    "dialogue": [
+     [
+      {
+       "prev_token": 0.4331584870815277,
+       "self_token": 0.16579647362232208,
+       "word_start": 0.06295139342546463,
+       "n_word_start_positions": 51,
+       "last_space": 0.042941052466630936,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1548095941543579,
+       "mean_lookback": 7.433861916541951
+      },
+      {
+       "prev_token": 0.43111005425453186,
+       "self_token": 0.12413301318883896,
+       "word_start": 0.10350024700164795,
+       "n_word_start_positions": 51,
+       "last_space": 0.060774147510528564,
+       "n_last_space_positions": 69,
+       "punct_any": 0.09788655489683151,
+       "mean_lookback": 4.596814777956747
+      },
+      {
+       "prev_token": 0.4618223309516907,
+       "self_token": 0.1164749339222908,
+       "word_start": 0.04576238617300987,
+       "n_word_start_positions": 51,
+       "last_space": 0.011490564793348312,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10512181371450424,
+       "mean_lookback": 10.152793690751604
+      },
+      {
+       "prev_token": 0.21497578918933868,
+       "self_token": 0.06824152916669846,
+       "word_start": 0.20126593112945557,
+       "n_word_start_positions": 51,
+       "last_space": 0.2896573543548584,
+       "n_last_space_positions": 69,
+       "punct_any": 0.07099620252847672,
+       "mean_lookback": 7.084815699495562
+      }
+     ],
+     [
+      {
+       "prev_token": 0.1088097095489502,
+       "self_token": 0.0780559852719307,
+       "word_start": 0.1190471276640892,
+       "n_word_start_positions": 51,
+       "last_space": 0.05953631177544594,
+       "n_last_space_positions": 69,
+       "punct_any": 0.20073164999485016,
+       "mean_lookback": 13.623996306373611
+      },
+      {
+       "prev_token": 0.14298032224178314,
+       "self_token": 0.05095841363072395,
+       "word_start": 0.12476323544979095,
+       "n_word_start_positions": 51,
+       "last_space": 0.2487468421459198,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10119187086820602,
+       "mean_lookback": 12.334603968009487
+      },
+      {
+       "prev_token": 0.3388855755329132,
+       "self_token": 0.038943544030189514,
+       "word_start": 0.0838029533624649,
+       "n_word_start_positions": 51,
+       "last_space": 0.06877975910902023,
+       "n_last_space_positions": 69,
+       "punct_any": 0.17680585384368896,
+       "mean_lookback": 9.906460574054547
+      },
+      {
+       "prev_token": 0.16193847358226776,
+       "self_token": 0.04877595603466034,
+       "word_start": 0.13794563710689545,
+       "n_word_start_positions": 51,
+       "last_space": 0.1284121572971344,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1111360415816307,
+       "mean_lookback": 11.372152708187373
+      }
+     ],
+     [
+      {
+       "prev_token": 0.2022162824869156,
+       "self_token": 0.0326535627245903,
+       "word_start": 0.19054920971393585,
+       "n_word_start_positions": 51,
+       "last_space": 0.0284931231290102,
+       "n_last_space_positions": 69,
+       "punct_any": 0.18220260739326477,
+       "mean_lookback": 4.929490826621936
+      },
+      {
+       "prev_token": 0.2712785601615906,
+       "self_token": 0.06367460638284683,
+       "word_start": 0.18173834681510925,
+       "n_word_start_positions": 51,
+       "last_space": 0.07721900194883347,
+       "n_last_space_positions": 69,
+       "punct_any": 0.0847574919462204,
+       "mean_lookback": 7.6035867540764235
+      },
+      {
+       "prev_token": 0.40938690304756165,
+       "self_token": 0.07184986770153046,
+       "word_start": 0.10820607841014862,
+       "n_word_start_positions": 51,
+       "last_space": 0.05402715131640434,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11034668236970901,
+       "mean_lookback": 6.592056766272771
+      },
+      {
+       "prev_token": 0.14804048836231232,
+       "self_token": 0.04716920107603073,
+       "word_start": 0.2998353838920593,
+       "n_word_start_positions": 51,
+       "last_space": 0.073526531457901,
+       "n_last_space_positions": 69,
+       "punct_any": 0.0902075543999672,
+       "mean_lookback": 6.9686021923934325
+      }
+     ],
+     [
+      {
+       "prev_token": 0.17516763508319855,
+       "self_token": 0.046504903584718704,
+       "word_start": 0.10235049575567245,
+       "n_word_start_positions": 51,
+       "last_space": 0.16039173305034637,
+       "n_last_space_positions": 69,
+       "punct_any": 0.18997231125831604,
+       "mean_lookback": 8.584628552400147
+      },
+      {
+       "prev_token": 0.08507992327213287,
+       "self_token": 0.03828839585185051,
+       "word_start": 0.10371743887662888,
+       "n_word_start_positions": 51,
+       "last_space": 0.05301596596837044,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1363261640071869,
+       "mean_lookback": 10.061402674180773
+      },
+      {
+       "prev_token": 0.12061883509159088,
+       "self_token": 0.03596271201968193,
+       "word_start": 0.06762387603521347,
+       "n_word_start_positions": 51,
+       "last_space": 0.06217335909605026,
+       "n_last_space_positions": 69,
+       "punct_any": 0.5137168169021606,
+       "mean_lookback": 19.47848591697088
+      },
+      {
+       "prev_token": 0.2202679067850113,
+       "self_token": 0.0625964030623436,
+       "word_start": 0.1874927282333374,
+       "n_word_start_positions": 51,
+       "last_space": 0.04700986295938492,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10566308349370956,
+       "mean_lookback": 10.01854208503821
+      }
+     ]
+    ],
+    "verse": [
+     [
+      {
+       "prev_token": 0.4866860806941986,
+       "self_token": 0.1399857997894287,
+       "word_start": 0.0514565035700798,
+       "n_word_start_positions": 50,
+       "last_space": 0.0909438282251358,
+       "n_last_space_positions": 77,
+       "punct_any": 0.06599541753530502,
+       "mean_lookback": 5.673621209607697
+      },
+      {
+       "prev_token": 0.5660421848297119,
+       "self_token": 0.10915912687778473,
+       "word_start": 0.15003052353858948,
+       "n_word_start_positions": 50,
+       "last_space": 0.06059595197439194,
+       "n_last_space_positions": 77,
+       "punct_any": 0.016415750607848167,
+       "mean_lookback": 2.4015297228212247
+      },
+      {
+       "prev_token": 0.5340602397918701,
+       "self_token": 0.12519986927509308,
+       "word_start": 0.08599867671728134,
+       "n_word_start_positions": 50,
+       "last_space": 0.01869809441268444,
+       "n_last_space_positions": 77,
+       "punct_any": 0.08688764274120331,
+       "mean_lookback": 10.516709088584546
+      },
+      {
+       "prev_token": 0.2680691182613373,
+       "self_token": 0.06544661521911621,
+       "word_start": 0.13791385293006897,
+       "n_word_start_positions": 50,
+       "last_space": 0.4022870361804962,
+       "n_last_space_positions": 77,
+       "punct_any": 0.01132037490606308,
+       "mean_lookback": 3.107485614131167
+      }
+     ],
+     [
+      {
+       "prev_token": 0.17396581172943115,
+       "self_token": 0.08436966687440872,
+       "word_start": 0.09942779690027237,
+       "n_word_start_positions": 50,
+       "last_space": 0.050374243408441544,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04662355035543442,
+       "mean_lookback": 8.793467838706052
+      },
+      {
+       "prev_token": 0.11829444020986557,
+       "self_token": 0.06731358170509338,
+       "word_start": 0.09606624394655228,
+       "n_word_start_positions": 50,
+       "last_space": 0.22789570689201355,
+       "n_last_space_positions": 77,
+       "punct_any": 0.021516354754567146,
+       "mean_lookback": 6.4032036201228575
+      },
+      {
+       "prev_token": 0.3449319005012512,
+       "self_token": 0.03974723070859909,
+       "word_start": 0.051106203347444534,
+       "n_word_start_positions": 50,
+       "last_space": 0.08168665319681168,
+       "n_last_space_positions": 77,
+       "punct_any": 0.09805107861757278,
+       "mean_lookback": 8.275280413868604
+      },
+      {
+       "prev_token": 0.19997887313365936,
+       "self_token": 0.06758647412061691,
+       "word_start": 0.2158927470445633,
+       "n_word_start_positions": 50,
+       "last_space": 0.14024686813354492,
+       "n_last_space_positions": 77,
+       "punct_any": 0.02352628856897354,
+       "mean_lookback": 8.247761030109913
+      }
+     ],
+     [
+      {
+       "prev_token": 0.18324211239814758,
+       "self_token": 0.026241039857268333,
+       "word_start": 0.2651861608028412,
+       "n_word_start_positions": 50,
+       "last_space": 0.027173560112714767,
+       "n_last_space_positions": 77,
+       "punct_any": 0.09579536318778992,
+       "mean_lookback": 4.117550028944943
+      },
+      {
+       "prev_token": 0.3132169544696808,
+       "self_token": 0.0821090042591095,
+       "word_start": 0.11114320904016495,
+       "n_word_start_positions": 50,
+       "last_space": 0.14683447778224945,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04474881291389465,
+       "mean_lookback": 5.241526511366085
+      },
+      {
+       "prev_token": 0.4834447503089905,
+       "self_token": 0.07734411954879761,
+       "word_start": 0.0468192920088768,
+       "n_word_start_positions": 50,
+       "last_space": 0.0695652887225151,
+       "n_last_space_positions": 77,
+       "punct_any": 0.07075255364179611,
+       "mean_lookback": 4.501536824601699
+      },
+      {
+       "prev_token": 0.19468608498573303,
+       "self_token": 0.057324811816215515,
+       "word_start": 0.21699848771095276,
+       "n_word_start_positions": 50,
+       "last_space": 0.13675040006637573,
+       "n_last_space_positions": 77,
+       "punct_any": 0.03762224689126015,
+       "mean_lookback": 4.125504851699709
+      }
+     ],
+     [
+      {
+       "prev_token": 0.1752144694328308,
+       "self_token": 0.025565315037965775,
+       "word_start": 0.05653202533721924,
+       "n_word_start_positions": 50,
+       "last_space": 0.1584671139717102,
+       "n_last_space_positions": 77,
+       "punct_any": 0.08162371814250946,
+       "mean_lookback": 7.678838314306958
+      },
+      {
+       "prev_token": 0.05683480203151703,
+       "self_token": 0.03719257190823555,
+       "word_start": 0.049663253128528595,
+       "n_word_start_positions": 50,
+       "last_space": 0.05781758204102516,
+       "n_last_space_positions": 77,
+       "punct_any": 0.06548856943845749,
+       "mean_lookback": 9.348803316205144
+      },
+      {
+       "prev_token": 0.06906800717115402,
+       "self_token": 0.036487627774477005,
+       "word_start": 0.06320438534021378,
+       "n_word_start_positions": 50,
+       "last_space": 0.04440556466579437,
+       "n_last_space_positions": 77,
+       "punct_any": 0.06334447115659714,
+       "mean_lookback": 25.513904454758723
+      },
+      {
+       "prev_token": 0.26510751247406006,
+       "self_token": 0.05981656163930893,
+       "word_start": 0.16259682178497314,
+       "n_word_start_positions": 50,
+       "last_space": 0.14218369126319885,
+       "n_last_space_positions": 77,
+       "punct_any": 0.02805314213037491,
+       "mean_lookback": 7.859939529082755
+      }
+     ]
+    ],
+    "modern": [
+     [
+      {
+       "prev_token": 0.5374281406402588,
+       "self_token": 0.1257210671901703,
+       "word_start": 0.05124722793698311,
+       "n_word_start_positions": 60,
+       "last_space": 0.05083119869232178,
+       "n_last_space_positions": 81,
+       "punct_any": 0.02899557538330555,
+       "mean_lookback": 6.465776138128409
+      },
+      {
+       "prev_token": 0.5402100086212158,
+       "self_token": 0.10499853640794754,
+       "word_start": 0.12127958983182907,
+       "n_word_start_positions": 60,
+       "last_space": 0.07730811834335327,
+       "n_last_space_positions": 81,
+       "punct_any": 0.008723339065909386,
+       "mean_lookback": 3.4827250970149612
+      },
+      {
+       "prev_token": 0.5353846549987793,
+       "self_token": 0.13976994156837463,
+       "word_start": 0.07685533910989761,
+       "n_word_start_positions": 60,
+       "last_space": 0.021080167964100838,
+       "n_last_space_positions": 81,
+       "punct_any": 0.03957119956612587,
+       "mean_lookback": 9.160680774637656
+      },
+      {
+       "prev_token": 0.269695520401001,
+       "self_token": 0.06405986845493317,
+       "word_start": 0.15117649734020233,
+       "n_word_start_positions": 60,
+       "last_space": 0.30456116795539856,
+       "n_last_space_positions": 81,
+       "punct_any": 0.006995027419179678,
+       "mean_lookback": 3.9559894083659217
+      }
+     ],
+     [
+      {
+       "prev_token": 0.14115510880947113,
+       "self_token": 0.09256581217050552,
+       "word_start": 0.18139144778251648,
+       "n_word_start_positions": 60,
+       "last_space": 0.053869184106588364,
+       "n_last_space_positions": 81,
+       "punct_any": 0.025039345026016235,
+       "mean_lookback": 8.091956763500365
+      },
+      {
+       "prev_token": 0.14058302342891693,
+       "self_token": 0.05944426730275154,
+       "word_start": 0.1477154791355133,
+       "n_word_start_positions": 60,
+       "last_space": 0.2560800015926361,
+       "n_last_space_positions": 81,
+       "punct_any": 0.005625099875032902,
+       "mean_lookback": 6.132087267085517
+      },
+      {
+       "prev_token": 0.358227014541626,
+       "self_token": 0.05302109569311142,
+       "word_start": 0.0739293098449707,
+       "n_word_start_positions": 60,
+       "last_space": 0.09453562647104263,
+       "n_last_space_positions": 81,
+       "punct_any": 0.050491075962781906,
+       "mean_lookback": 7.884738358852273
+      },
+      {
+       "prev_token": 0.21586881577968597,
+       "self_token": 0.05756380781531334,
+       "word_start": 0.24221739172935486,
+       "n_word_start_positions": 60,
+       "last_space": 0.09991704672574997,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010794881731271744,
+       "mean_lookback": 8.168216637220613
+      }
+     ],
+     [
+      {
+       "prev_token": 0.1635178029537201,
+       "self_token": 0.02618243917822838,
+       "word_start": 0.1568758338689804,
+       "n_word_start_positions": 60,
+       "last_space": 0.026977768167853355,
+       "n_last_space_positions": 81,
+       "punct_any": 0.06985003501176834,
+       "mean_lookback": 4.651688633102152
+      },
+      {
+       "prev_token": 0.31647825241088867,
+       "self_token": 0.06355640292167664,
+       "word_start": 0.1060962826013565,
+       "n_word_start_positions": 60,
+       "last_space": 0.13964611291885376,
+       "n_last_space_positions": 81,
+       "punct_any": 0.016445672139525414,
+       "mean_lookback": 5.750558984908656
+      },
+      {
+       "prev_token": 0.526293158531189,
+       "self_token": 0.08915799856185913,
+       "word_start": 0.06561317294836044,
+       "n_word_start_positions": 60,
+       "last_space": 0.09001671522855759,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01693105883896351,
+       "mean_lookback": 4.037414466867382
+      },
+      {
+       "prev_token": 0.20491614937782288,
+       "self_token": 0.04644206538796425,
+       "word_start": 0.23247022926807404,
+       "n_word_start_positions": 60,
+       "last_space": 0.11378217488527298,
+       "n_last_space_positions": 81,
+       "punct_any": 0.019659671932458878,
+       "mean_lookback": 4.5691158029877315
+      }
+     ],
+     [
+      {
+       "prev_token": 0.15265542268753052,
+       "self_token": 0.034080758690834045,
+       "word_start": 0.11217312514781952,
+       "n_word_start_positions": 60,
+       "last_space": 0.19197572767734528,
+       "n_last_space_positions": 81,
+       "punct_any": 0.04615582153201103,
+       "mean_lookback": 8.007930779900343
+      },
+      {
+       "prev_token": 0.06658201664686203,
+       "self_token": 0.04611745849251747,
+       "word_start": 0.06777827441692352,
+       "n_word_start_positions": 60,
+       "last_space": 0.05877915769815445,
+       "n_last_space_positions": 81,
+       "punct_any": 0.04103688523173332,
+       "mean_lookback": 9.164931236547874
+      },
+      {
+       "prev_token": 0.08169084787368774,
+       "self_token": 0.030000222846865654,
+       "word_start": 0.14133872091770172,
+       "n_word_start_positions": 60,
+       "last_space": 0.04381616786122322,
+       "n_last_space_positions": 81,
+       "punct_any": 0.039665114134550095,
+       "mean_lookback": 24.293017713626096
+      },
+      {
+       "prev_token": 0.24410869181156158,
+       "self_token": 0.07001335173845291,
+       "word_start": 0.21082063019275665,
+       "n_word_start_positions": 60,
+       "last_space": 0.10123966634273529,
+       "n_last_space_positions": 81,
+       "punct_any": 0.008730626665055752,
+       "mean_lookback": 8.143602366848015
+      }
+     ]
+    ]
+   },
+   "val": [
+    [
+     {
+      "prev_token": 0.4412637911736965,
+      "self_token": 0.1335848806425929,
+      "word_start": 0.07416516151279211,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.060271031036973,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.12386745354160666,
+      "mean_lookback": 15.354964200494422,
+      "prev_token_se": 0.0017863794056782285,
+      "word_start_se": 0.0024752600447874636,
+      "last_space_se": 0.0015734881080747766,
+      "punct_any_se": 0.003074128750066045
+     },
+     {
+      "prev_token": 0.4640430223196745,
+      "self_token": 0.1102112939581275,
+      "word_start": 0.10786651931703091,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.0864379171282053,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08523888941854238,
+      "mean_lookback": 9.560873012418794,
+      "prev_token_se": 0.002893858580205616,
+      "word_start_se": 0.0036119927064426098,
+      "last_space_se": 0.0024302568746403332,
+      "punct_any_se": 0.0029112114471983143
+     },
+     {
+      "prev_token": 0.4291166912764311,
+      "self_token": 0.10462104445323347,
+      "word_start": 0.10826095091179014,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.012460286449640989,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.10411344808526338,
+      "mean_lookback": 21.33860087501814,
+      "prev_token_se": 0.00229606035119906,
+      "word_start_se": 0.003390033686105544,
+      "last_space_se": 0.0006782658179939274,
+      "punct_any_se": 0.0021499965510350344
+     },
+     {
+      "prev_token": 0.23649796806275844,
+      "self_token": 0.06714923791587353,
+      "word_start": 0.14656068673357367,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.34943090174347163,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.07170674996450543,
+      "mean_lookback": 9.998172560682729,
+      "prev_token_se": 0.0016682342387122128,
+      "word_start_se": 0.004223252075201994,
+      "last_space_se": 0.00539827653270619,
+      "punct_any_se": 0.0013038648342502816
+     }
+    ],
+    [
+     {
+      "prev_token": 0.12911893920972944,
+      "self_token": 0.05920595689676702,
+      "word_start": 0.11888431245461106,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.05685597630217672,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.14921244122087957,
+      "mean_lookback": 19.617084596015594,
+      "prev_token_se": 0.00172773645635905,
+      "word_start_se": 0.0029850252980845727,
+      "last_space_se": 0.0009324754904514362,
+      "punct_any_se": 0.003481552022274166
+     },
+     {
+      "prev_token": 0.1471943431533873,
+      "self_token": 0.04861410879530013,
+      "word_start": 0.13285378874279558,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.1814733510836959,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.1056295313872397,
+      "mean_lookback": 12.94079955390011,
+      "prev_token_se": 0.0014309227937378823,
+      "word_start_se": 0.003320925964278216,
+      "last_space_se": 0.0033626864889456606,
+      "punct_any_se": 0.004095719933185496
+     },
+     {
+      "prev_token": 0.34495628215372565,
+      "self_token": 0.037253390345722434,
+      "word_start": 0.07586548691615462,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.06400091922841966,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.1880135064944625,
+      "mean_lookback": 14.058379033323984,
+      "prev_token_se": 0.0018690564756656013,
+      "word_start_se": 0.0025295569458969446,
+      "last_space_se": 0.0017521858829240037,
+      "punct_any_se": 0.0029451663077056747
+     },
+     {
+      "prev_token": 0.18518159333616496,
+      "self_token": 0.045239325845614076,
+      "word_start": 0.20934450533241034,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.10153162619099021,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.11618691366165876,
+      "mean_lookback": 19.056860422387302,
+      "prev_token_se": 0.0023791358478220553,
+      "word_start_se": 0.005043376588770275,
+      "last_space_se": 0.0020028835213967834,
+      "punct_any_se": 0.002946676266327336
+     }
+    ],
+    [
+     {
+      "prev_token": 0.17725029811263085,
+      "self_token": 0.023215271439403294,
+      "word_start": 0.18750789565965534,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.038307853625155985,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.14177740099839867,
+      "mean_lookback": 6.323891958103985,
+      "prev_token_se": 0.0014816360686170415,
+      "word_start_se": 0.004349760555958277,
+      "last_space_se": 0.0007296736885671787,
+      "punct_any_se": 0.004151559560230964
+     },
+     {
+      "prev_token": 0.301647137850523,
+      "self_token": 0.06393933002837002,
+      "word_start": 0.13313735025003554,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.10082852588966489,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09889408452436328,
+      "mean_lookback": 10.241998012670091,
+      "prev_token_se": 0.003251824982883791,
+      "word_start_se": 0.003300721419654544,
+      "last_space_se": 0.002115682101369644,
+      "punct_any_se": 0.002609132313230863
+     },
+     {
+      "prev_token": 0.4501158338040113,
+      "self_token": 0.06369285257533193,
+      "word_start": 0.0756306172348559,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.06198244299739599,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.10537817655131221,
+      "mean_lookback": 8.883959553875679,
+      "prev_token_se": 0.004711186920358867,
+      "word_start_se": 0.002105333577779852,
+      "last_space_se": 0.0012860328357604451,
+      "punct_any_se": 0.0022921946945142204
+     },
+     {
+      "prev_token": 0.16920229829847813,
+      "self_token": 0.04362250571139157,
+      "word_start": 0.28092364128679037,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.10663016601465643,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.12845269199460746,
+      "mean_lookback": 10.975433418256445,
+      "prev_token_se": 0.0019328220690575872,
+      "word_start_se": 0.004922445305564596,
+      "last_space_se": 0.0017724152733249812,
+      "punct_any_se": 0.0018744744824847471
+     }
+    ],
+    [
+     {
+      "prev_token": 0.18692683167755603,
+      "self_token": 0.030938086565583944,
+      "word_start": 0.07886476460844279,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.13044776860624552,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.15561890928074718,
+      "mean_lookback": 11.909908061872112,
+      "prev_token_se": 0.0015899227854840323,
+      "word_start_se": 0.0018049885149919443,
+      "last_space_se": 0.0017851163200118577,
+      "punct_any_se": 0.004314935900890369
+     },
+     {
+      "prev_token": 0.0719334258697927,
+      "self_token": 0.03846518204081804,
+      "word_start": 0.07004679101519287,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.05597106232307851,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.13424552911892534,
+      "mean_lookback": 12.792572639605604,
+      "prev_token_se": 0.0011522718853996803,
+      "word_start_se": 0.003387866270231126,
+      "last_space_se": 0.0009665245272682493,
+      "punct_any_se": 0.002498051414286551
+     },
+     {
+      "prev_token": 0.09583859359845519,
+      "self_token": 0.026650666166096924,
+      "word_start": 0.07875830810517073,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.11463652485981583,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.46916081234812734,
+      "mean_lookback": 25.144661660040057,
+      "prev_token_se": 0.001147693029350435,
+      "word_start_se": 0.002452910577794193,
+      "last_space_se": 0.0026496763632758383,
+      "punct_any_se": 0.004250657920264738
+     },
+     {
+      "prev_token": 0.2393500732257962,
+      "self_token": 0.051589400181546806,
+      "word_start": 0.20680583706125616,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.09720372534357011,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09040977009572089,
+      "mean_lookback": 15.58004861040195,
+      "prev_token_se": 0.0025601327317074777,
+      "word_start_se": 0.0043407759743902255,
+      "last_space_se": 0.00217874152088949,
+      "punct_any_se": 0.002996009230321644
+     }
+    ]
+   ]
+  },
+  "gpt_modern_s42": {
+   "text": {
+    "dialogue": [
+     [
+      {
+       "prev_token": 0.27738019824028015,
+       "self_token": 0.07238452881574631,
+       "word_start": 0.19431349635124207,
+       "n_word_start_positions": 51,
+       "last_space": 0.20428645610809326,
+       "n_last_space_positions": 69,
+       "punct_any": 0.044994983822107315,
+       "mean_lookback": 8.745019338970387
+      },
+      {
+       "prev_token": 0.30500495433807373,
+       "self_token": 0.09745320677757263,
+       "word_start": 0.09974725544452667,
+       "n_word_start_positions": 51,
+       "last_space": 0.05429411306977272,
+       "n_last_space_positions": 69,
+       "punct_any": 0.08825942128896713,
+       "mean_lookback": 6.173704675378002
+      },
+      {
+       "prev_token": 0.4840508699417114,
+       "self_token": 0.16612760722637177,
+       "word_start": 0.0638437569141388,
+       "n_word_start_positions": 51,
+       "last_space": 0.0018990234239026904,
+       "n_last_space_positions": 69,
+       "punct_any": 0.05592368543148041,
+       "mean_lookback": 6.3543783859305
+      },
+      {
+       "prev_token": 0.6284527778625488,
+       "self_token": 0.23578274250030518,
+       "word_start": 0.004248257260769606,
+       "n_word_start_positions": 51,
+       "last_space": 0.0014683820772916079,
+       "n_last_space_positions": 69,
+       "punct_any": 0.016184771433472633,
+       "mean_lookback": 3.2362051416808737
+      }
+     ],
+     [
+      {
+       "prev_token": 0.09396117180585861,
+       "self_token": 0.09092102199792862,
+       "word_start": 0.05678481236100197,
+       "n_word_start_positions": 51,
+       "last_space": 0.05881163850426674,
+       "n_last_space_positions": 69,
+       "punct_any": 0.5195392370223999,
+       "mean_lookback": 18.067470763899067
+      },
+      {
+       "prev_token": 0.11428680270910263,
+       "self_token": 0.05171513184905052,
+       "word_start": 0.15345537662506104,
+       "n_word_start_positions": 51,
+       "last_space": 0.1335276961326599,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1730680912733078,
+       "mean_lookback": 11.06508405706911
+      },
+      {
+       "prev_token": 0.17133729159832,
+       "self_token": 0.03534083068370819,
+       "word_start": 0.17964062094688416,
+       "n_word_start_positions": 51,
+       "last_space": 0.1006837859749794,
+       "n_last_space_positions": 69,
+       "punct_any": 0.2407478392124176,
+       "mean_lookback": 9.3766530866636
+      },
+      {
+       "prev_token": 0.21947099268436432,
+       "self_token": 0.05158489570021629,
+       "word_start": 0.09072212129831314,
+       "n_word_start_positions": 51,
+       "last_space": 0.09777992963790894,
+       "n_last_space_positions": 69,
+       "punct_any": 0.23858503997325897,
+       "mean_lookback": 7.905946928445263
+      }
+     ],
+     [
+      {
+       "prev_token": 0.20496420562267303,
+       "self_token": 0.055424220860004425,
+       "word_start": 0.11275257915258408,
+       "n_word_start_positions": 51,
+       "last_space": 0.060537226498126984,
+       "n_last_space_positions": 69,
+       "punct_any": 0.17127534747123718,
+       "mean_lookback": 8.355236522643786
+      },
+      {
+       "prev_token": 0.15543782711029053,
+       "self_token": 0.04986434802412987,
+       "word_start": 0.08295918256044388,
+       "n_word_start_positions": 51,
+       "last_space": 0.09266968071460724,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11120619624853134,
+       "mean_lookback": 13.735920610211414
+      },
+      {
+       "prev_token": 0.3377191126346588,
+       "self_token": 0.06787989288568497,
+       "word_start": 0.08038630336523056,
+       "n_word_start_positions": 51,
+       "last_space": 0.0313178226351738,
+       "n_last_space_positions": 69,
+       "punct_any": 0.12459667026996613,
+       "mean_lookback": 8.364997283904712
+      },
+      {
+       "prev_token": 0.12977923452854156,
+       "self_token": 0.04905807226896286,
+       "word_start": 0.3711202144622803,
+       "n_word_start_positions": 51,
+       "last_space": 0.054890695959329605,
+       "n_last_space_positions": 69,
+       "punct_any": 0.06663712114095688,
+       "mean_lookback": 6.597805559664784
+      }
+     ],
+     [
+      {
+       "prev_token": 0.11061972379684448,
+       "self_token": 0.038135603070259094,
+       "word_start": 0.055502548813819885,
+       "n_word_start_positions": 51,
+       "last_space": 0.0629611536860466,
+       "n_last_space_positions": 69,
+       "punct_any": 0.22323738038539886,
+       "mean_lookback": 8.958165550347497
+      },
+      {
+       "prev_token": 0.17887715995311737,
+       "self_token": 0.0562334842979908,
+       "word_start": 0.10044335573911667,
+       "n_word_start_positions": 51,
+       "last_space": 0.06814689189195633,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1674872487783432,
+       "mean_lookback": 10.260956841876881
+      },
+      {
+       "prev_token": 0.3668926954269409,
+       "self_token": 0.06631574779748917,
+       "word_start": 0.10112766176462173,
+       "n_word_start_positions": 51,
+       "last_space": 0.11709015816450119,
+       "n_last_space_positions": 69,
+       "punct_any": 0.08815170079469681,
+       "mean_lookback": 6.624328620422942
+      },
+      {
+       "prev_token": 0.18593859672546387,
+       "self_token": 0.0668363869190216,
+       "word_start": 0.3065747916698456,
+       "n_word_start_positions": 51,
+       "last_space": 0.10312415659427643,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11306922882795334,
+       "mean_lookback": 6.789178882469916
+      }
+     ]
+    ],
+    "verse": [
+     [
+      {
+       "prev_token": 0.35463210940361023,
+       "self_token": 0.09194827079772949,
+       "word_start": 0.14780551195144653,
+       "n_word_start_positions": 50,
+       "last_space": 0.2752821147441864,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05506383627653122,
+       "mean_lookback": 7.728931053263012
+      },
+      {
+       "prev_token": 0.34541621804237366,
+       "self_token": 0.06482938677072525,
+       "word_start": 0.15069721639156342,
+       "n_word_start_positions": 50,
+       "last_space": 0.10140611231327057,
+       "n_last_space_positions": 77,
+       "punct_any": 0.02676139771938324,
+       "mean_lookback": 3.2209504067831394
+      },
+      {
+       "prev_token": 0.6257159113883972,
+       "self_token": 0.1082034483551979,
+       "word_start": 0.08605742454528809,
+       "n_word_start_positions": 50,
+       "last_space": 0.03621979430317879,
+       "n_last_space_positions": 77,
+       "punct_any": 0.03229634836316109,
+       "mean_lookback": 3.8175486289824563
+      },
+      {
+       "prev_token": 0.7687357068061829,
+       "self_token": 0.1462486982345581,
+       "word_start": 0.002715328009799123,
+       "n_word_start_positions": 50,
+       "last_space": 0.00020296151342336088,
+       "n_last_space_positions": 77,
+       "punct_any": 0.01649610325694084,
+       "mean_lookback": 1.4088190628789239
+      }
+     ],
+     [
+      {
+       "prev_token": 0.11236198991537094,
+       "self_token": 0.07417923212051392,
+       "word_start": 0.0625242292881012,
+       "n_word_start_positions": 50,
+       "last_space": 0.07457360625267029,
+       "n_last_space_positions": 77,
+       "punct_any": 0.06655249744653702,
+       "mean_lookback": 22.687930482425
+      },
+      {
+       "prev_token": 0.18370147049427032,
+       "self_token": 0.05791366845369339,
+       "word_start": 0.16266046464443207,
+       "n_word_start_positions": 50,
+       "last_space": 0.20011605322360992,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04924673214554787,
+       "mean_lookback": 6.3059160109656105
+      },
+      {
+       "prev_token": 0.16926772892475128,
+       "self_token": 0.047792624682188034,
+       "word_start": 0.12147167325019836,
+       "n_word_start_positions": 50,
+       "last_space": 0.14452145993709564,
+       "n_last_space_positions": 77,
+       "punct_any": 0.08991529792547226,
+       "mean_lookback": 7.474707829450449
+      },
+      {
+       "prev_token": 0.24144840240478516,
+       "self_token": 0.06430899351835251,
+       "word_start": 0.1874106079339981,
+       "n_word_start_positions": 50,
+       "last_space": 0.1231561154127121,
+       "n_last_space_positions": 77,
+       "punct_any": 0.10630165785551071,
+       "mean_lookback": 6.926610404191648
+      }
+     ],
+     [
+      {
+       "prev_token": 0.17203304171562195,
+       "self_token": 0.039208319038152695,
+       "word_start": 0.09713998436927795,
+       "n_word_start_positions": 50,
+       "last_space": 0.05489075556397438,
+       "n_last_space_positions": 77,
+       "punct_any": 0.055265992879867554,
+       "mean_lookback": 7.608062607418148
+      },
+      {
+       "prev_token": 0.20102320611476898,
+       "self_token": 0.058332353830337524,
+       "word_start": 0.14469723403453827,
+       "n_word_start_positions": 50,
+       "last_space": 0.1005127802491188,
+       "n_last_space_positions": 77,
+       "punct_any": 0.06736122071743011,
+       "mean_lookback": 8.060656893844564
+      },
+      {
+       "prev_token": 0.3536034822463989,
+       "self_token": 0.06613212078809738,
+       "word_start": 0.032849475741386414,
+       "n_word_start_positions": 50,
+       "last_space": 0.030842093750834465,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05759983882308006,
+       "mean_lookback": 7.299840902351129
+      },
+      {
+       "prev_token": 0.1404530555009842,
+       "self_token": 0.04618204012513161,
+       "word_start": 0.21652448177337646,
+       "n_word_start_positions": 50,
+       "last_space": 0.1438884139060974,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04117600992321968,
+       "mean_lookback": 6.482851857490127
+      }
+     ],
+     [
+      {
+       "prev_token": 0.10108193755149841,
+       "self_token": 0.02272491715848446,
+       "word_start": 0.03563231602311134,
+       "n_word_start_positions": 50,
+       "last_space": 0.07215938717126846,
+       "n_last_space_positions": 77,
+       "punct_any": 0.13281293213367462,
+       "mean_lookback": 7.589623706868676
+      },
+      {
+       "prev_token": 0.1957840621471405,
+       "self_token": 0.01935277134180069,
+       "word_start": 0.03873015567660332,
+       "n_word_start_positions": 50,
+       "last_space": 0.04298184812068939,
+       "n_last_space_positions": 77,
+       "punct_any": 0.06292782723903656,
+       "mean_lookback": 11.059334218421789
+      },
+      {
+       "prev_token": 0.45636385679244995,
+       "self_token": 0.06699328869581223,
+       "word_start": 0.05522247403860092,
+       "n_word_start_positions": 50,
+       "last_space": 0.17276506125926971,
+       "n_last_space_positions": 77,
+       "punct_any": 0.043893538415431976,
+       "mean_lookback": 4.426087835699113
+      },
+      {
+       "prev_token": 0.16375726461410522,
+       "self_token": 0.055821605026721954,
+       "word_start": 0.10071562975645065,
+       "n_word_start_positions": 50,
+       "last_space": 0.18765407800674438,
+       "n_last_space_positions": 77,
+       "punct_any": 0.03174207732081413,
+       "mean_lookback": 5.489482568418821
+      }
+     ]
+    ],
+    "modern": [
+     [
+      {
+       "prev_token": 0.3681795299053192,
+       "self_token": 0.10542627424001694,
+       "word_start": 0.19694884121418,
+       "n_word_start_positions": 60,
+       "last_space": 0.2118137925863266,
+       "n_last_space_positions": 81,
+       "punct_any": 0.02814587764441967,
+       "mean_lookback": 7.909015222496224
+      },
+      {
+       "prev_token": 0.3348997235298157,
+       "self_token": 0.04953490197658539,
+       "word_start": 0.11000422388315201,
+       "n_word_start_positions": 60,
+       "last_space": 0.0621514618396759,
+       "n_last_space_positions": 81,
+       "punct_any": 0.02274072729051113,
+       "mean_lookback": 3.6082327311990734
+      },
+      {
+       "prev_token": 0.6729016304016113,
+       "self_token": 0.0912451520562172,
+       "word_start": 0.08892011642456055,
+       "n_word_start_positions": 60,
+       "last_space": 0.031169453635811806,
+       "n_last_space_positions": 81,
+       "punct_any": 0.003907191567122936,
+       "mean_lookback": 3.6126536737106436
+      },
+      {
+       "prev_token": 0.8025156855583191,
+       "self_token": 0.12608706951141357,
+       "word_start": 0.01428611297160387,
+       "n_word_start_positions": 60,
+       "last_space": 0.0005684014176949859,
+       "n_last_space_positions": 81,
+       "punct_any": 0.0037963951472193003,
+       "mean_lookback": 1.982019579363928
+      }
+     ],
+     [
+      {
+       "prev_token": 0.12940509617328644,
+       "self_token": 0.06637813150882721,
+       "word_start": 0.06641881912946701,
+       "n_word_start_positions": 60,
+       "last_space": 0.10848534852266312,
+       "n_last_space_positions": 81,
+       "punct_any": 0.012695633806288242,
+       "mean_lookback": 24.451474088485902
+      },
+      {
+       "prev_token": 0.16317608952522278,
+       "self_token": 0.060362983494997025,
+       "word_start": 0.17083531618118286,
+       "n_word_start_positions": 60,
+       "last_space": 0.19979599118232727,
+       "n_last_space_positions": 81,
+       "punct_any": 0.014206252992153168,
+       "mean_lookback": 6.5945345397812964
+      },
+      {
+       "prev_token": 0.17467379570007324,
+       "self_token": 0.05258691683411598,
+       "word_start": 0.16005966067314148,
+       "n_word_start_positions": 60,
+       "last_space": 0.12459254264831543,
+       "n_last_space_positions": 81,
+       "punct_any": 0.0349312499165535,
+       "mean_lookback": 9.226120476125962
+      },
+      {
+       "prev_token": 0.2322162538766861,
+       "self_token": 0.061742447316646576,
+       "word_start": 0.1780673861503601,
+       "n_word_start_positions": 60,
+       "last_space": 0.09228848665952682,
+       "n_last_space_positions": 81,
+       "punct_any": 0.06352993845939636,
+       "mean_lookback": 7.320763223710359
+      }
+     ],
+     [
+      {
+       "prev_token": 0.216579407453537,
+       "self_token": 0.04542951658368111,
+       "word_start": 0.11985063552856445,
+       "n_word_start_positions": 60,
+       "last_space": 0.06599531322717667,
+       "n_last_space_positions": 81,
+       "punct_any": 0.04924027994275093,
+       "mean_lookback": 7.071536233816983
+      },
+      {
+       "prev_token": 0.18818257749080658,
+       "self_token": 0.04459062218666077,
+       "word_start": 0.08903136849403381,
+       "n_word_start_positions": 60,
+       "last_space": 0.12539532780647278,
+       "n_last_space_positions": 81,
+       "punct_any": 0.021589895710349083,
+       "mean_lookback": 8.536464154444515
+      },
+      {
+       "prev_token": 0.3719383776187897,
+       "self_token": 0.05333089083433151,
+       "word_start": 0.04989081993699074,
+       "n_word_start_positions": 60,
+       "last_space": 0.0441746711730957,
+       "n_last_space_positions": 81,
+       "punct_any": 0.05210178717970848,
+       "mean_lookback": 8.482710209481487
+      },
+      {
+       "prev_token": 0.09987475723028183,
+       "self_token": 0.03742106631398201,
+       "word_start": 0.28705769777297974,
+       "n_word_start_positions": 60,
+       "last_space": 0.10006099194288254,
+       "n_last_space_positions": 81,
+       "punct_any": 0.0261904988437891,
+       "mean_lookback": 7.4309439522440845
+      }
+     ],
+     [
+      {
+       "prev_token": 0.07446204870939255,
+       "self_token": 0.030900560319423676,
+       "word_start": 0.0407981351017952,
+       "n_word_start_positions": 60,
+       "last_space": 0.09651665389537811,
+       "n_last_space_positions": 81,
+       "punct_any": 0.0766661986708641,
+       "mean_lookback": 7.716085122816118
+      },
+      {
+       "prev_token": 0.17401912808418274,
+       "self_token": 0.039187487214803696,
+       "word_start": 0.07948032021522522,
+       "n_word_start_positions": 60,
+       "last_space": 0.06315027922391891,
+       "n_last_space_positions": 81,
+       "punct_any": 0.037966448813676834,
+       "mean_lookback": 10.625020025203984
+      },
+      {
+       "prev_token": 0.4694744646549225,
+       "self_token": 0.053746096789836884,
+       "word_start": 0.11105617135763168,
+       "n_word_start_positions": 60,
+       "last_space": 0.16574087738990784,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011224816553294659,
+       "mean_lookback": 3.976098997586934
+      },
+      {
+       "prev_token": 0.20643256604671478,
+       "self_token": 0.07294906675815582,
+       "word_start": 0.11854801326990128,
+       "n_word_start_positions": 60,
+       "last_space": 0.13322223722934723,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01569676399230957,
+       "mean_lookback": 5.7551273121864455
+      }
+     ]
+    ]
+   },
+   "val": [
+    [
+     {
+      "prev_token": 0.31212462708353994,
+      "self_token": 0.07686501224525273,
+      "word_start": 0.1860153549350798,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.2269026765599847,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.0646947683300823,
+      "mean_lookback": 15.870954185978169,
+      "prev_token_se": 0.001661696594597509,
+      "word_start_se": 0.004386018821864124,
+      "last_space_se": 0.003669545501642689,
+      "punct_any_se": 0.001337149713574474
+     },
+     {
+      "prev_token": 0.29712969027459624,
+      "self_token": 0.07242269776761531,
+      "word_start": 0.15658083502203227,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.04815551624633372,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08172067301347852,
+      "mean_lookback": 12.400285722588574,
+      "prev_token_se": 0.0022167501473672334,
+      "word_start_se": 0.003667325795447841,
+      "last_space_se": 0.0015388871431531294,
+      "punct_any_se": 0.0024812777993252454
+     },
+     {
+      "prev_token": 0.5280944019556045,
+      "self_token": 0.13018427109345793,
+      "word_start": 0.08470917311497032,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.024438626231858506,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.05126644163392484,
+      "mean_lookback": 12.543407739558114,
+      "prev_token_se": 0.004151131405475667,
+      "word_start_se": 0.003036205738620652,
+      "last_space_se": 0.0010874940627299931,
+      "punct_any_se": 0.00210925588240671
+     },
+     {
+      "prev_token": 0.6714158467948437,
+      "self_token": 0.19320337604731322,
+      "word_start": 0.005840637841993157,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.0008234558927142643,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.024571735551580785,
+      "mean_lookback": 5.927355733976306,
+      "prev_token_se": 0.003187995874461797,
+      "word_start_se": 0.0006823031954426052,
+      "last_space_se": 8.809607919843789e-05,
+      "punct_any_se": 0.0007082273930523937
+     }
+    ],
+    [
+     {
+      "prev_token": 0.11561400983482599,
+      "self_token": 0.06011670790612698,
+      "word_start": 0.055789759778417644,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.08430623761378228,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.47808729372918607,
+      "mean_lookback": 25.34919036842923,
+      "prev_token_se": 0.0017120875780672008,
+      "word_start_se": 0.0019014292477270859,
+      "last_space_se": 0.0026765308031304553,
+      "punct_any_se": 0.003985852970086498
+     },
+     {
+      "prev_token": 0.16018714886158705,
+      "self_token": 0.04420302677899599,
+      "word_start": 0.16773953111842274,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.16725339647382498,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.12943604015745222,
+      "mean_lookback": 14.778240912375173,
+      "prev_token_se": 0.0015770641146669242,
+      "word_start_se": 0.003673256164876101,
+      "last_space_se": 0.003060099910295322,
+      "punct_any_se": 0.004205205153967311
+     },
+     {
+      "prev_token": 0.17675660494714976,
+      "self_token": 0.033383927098475395,
+      "word_start": 0.16618277495726944,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.12987628960981965,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.16650616424158216,
+      "mean_lookback": 14.258241602788232,
+      "prev_token_se": 0.0012327847402820262,
+      "word_start_se": 0.003823639277968799,
+      "last_space_se": 0.002166229751596603,
+      "punct_any_se": 0.0048722403294210225
+     },
+     {
+      "prev_token": 0.22068843469023705,
+      "self_token": 0.04481830061413348,
+      "word_start": 0.20529874879866838,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.08499262644909322,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.1803705608472228,
+      "mean_lookback": 11.239691072165531,
+      "prev_token_se": 0.001662223716595684,
+      "word_start_se": 0.005350552675653157,
+      "last_space_se": 0.001969664037052857,
+      "punct_any_se": 0.004366621694166158
+     }
+    ],
+    [
+     {
+      "prev_token": 0.19549930691719056,
+      "self_token": 0.04497705940157175,
+      "word_start": 0.1440173621289432,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.07090862975455821,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.14891458684578537,
+      "mean_lookback": 10.771037453851154,
+      "prev_token_se": 0.0019838614643260632,
+      "word_start_se": 0.0033948846901531446,
+      "last_space_se": 0.0008894387353187633,
+      "punct_any_se": 0.002254849167881402
+     },
+     {
+      "prev_token": 0.16438847165554762,
+      "self_token": 0.03221144031267613,
+      "word_start": 0.09549954710528255,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.09167465311475098,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.13432813622057438,
+      "mean_lookback": 21.604558147875213,
+      "prev_token_se": 0.002374170553572696,
+      "word_start_se": 0.0025550700481046856,
+      "last_space_se": 0.001873230259839137,
+      "punct_any_se": 0.0025244979754406303
+     },
+     {
+      "prev_token": 0.33481431789696214,
+      "self_token": 0.04658212601207197,
+      "word_start": 0.07092672060243785,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.038974242052063346,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.13554138988256453,
+      "mean_lookback": 13.286542536630947,
+      "prev_token_se": 0.00265111133152061,
+      "word_start_se": 0.0022609116485934368,
+      "last_space_se": 0.0006817420152055412,
+      "punct_any_se": 0.0030294464375841797
+     },
+     {
+      "prev_token": 0.13775977985933424,
+      "self_token": 0.038570180302485824,
+      "word_start": 0.3042178938165307,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.12123364573344589,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.10566745912656188,
+      "mean_lookback": 11.163352216626098,
+      "prev_token_se": 0.0019299099312832919,
+      "word_start_se": 0.005741631767407204,
+      "last_space_se": 0.002208983492674464,
+      "punct_any_se": 0.0019644188426377013
+     }
+    ],
+    [
+     {
+      "prev_token": 0.10911280270665884,
+      "self_token": 0.023988631810061632,
+      "word_start": 0.05300859319977462,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.06464376081712545,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.20937356976792215,
+      "mean_lookback": 9.864233916827972,
+      "prev_token_se": 0.0013567468434900378,
+      "word_start_se": 0.0020594320159171664,
+      "last_space_se": 0.001516780076032399,
+      "punct_any_se": 0.0056319657331221585
+     },
+     {
+      "prev_token": 0.19035633336752653,
+      "self_token": 0.03022365828510374,
+      "word_start": 0.09925076733343303,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.06407603211700916,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.14863352300599217,
+      "mean_lookback": 12.689368419841372,
+      "prev_token_se": 0.0014558502057249484,
+      "word_start_se": 0.0031321237218073818,
+      "last_space_se": 0.0013002317588777245,
+      "punct_any_se": 0.0031181439941545407
+     },
+     {
+      "prev_token": 0.4114981196820736,
+      "self_token": 0.06405760613270103,
+      "word_start": 0.0750325124245137,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.10973947197198868,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09679856696166098,
+      "mean_lookback": 8.687494152285728,
+      "prev_token_se": 0.003397457191167742,
+      "word_start_se": 0.0020385037468118833,
+      "last_space_se": 0.0022448679729406185,
+      "punct_any_se": 0.002441184670591409
+     },
+     {
+      "prev_token": 0.18411202281713485,
+      "self_token": 0.05057054609060287,
+      "word_start": 0.14312086785212158,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.16489710565656424,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09194719432853163,
+      "mean_lookback": 10.59496918358615,
+      "prev_token_se": 0.002000694410379553,
+      "word_start_se": 0.0031729272766256485,
+      "last_space_se": 0.002526348454778875,
+      "punct_any_se": 0.002180318977890142
+     }
+    ]
+   ]
+  },
+  "untrained_s1337": {
+   "text": {
+    "dialogue": [
+     [
+      {
+       "prev_token": 0.04118485003709793,
+       "self_token": 0.047306280583143234,
+       "word_start": 0.03795050084590912,
+       "n_word_start_positions": 51,
+       "last_space": 0.025248980149626732,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11113864928483963,
+       "mean_lookback": 26.75711314046445
+      },
+      {
+       "prev_token": 0.03974900394678116,
+       "self_token": 0.04844469204545021,
+       "word_start": 0.037253931164741516,
+       "n_word_start_positions": 51,
+       "last_space": 0.02464352175593376,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11032749712467194,
+       "mean_lookback": 26.918625728580757
+      },
+      {
+       "prev_token": 0.03968673199415207,
+       "self_token": 0.04909598082304001,
+       "word_start": 0.03898409381508827,
+       "n_word_start_positions": 51,
+       "last_space": 0.02550155110657215,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10924886167049408,
+       "mean_lookback": 26.713607975497357
+      },
+      {
+       "prev_token": 0.03892884403467178,
+       "self_token": 0.04985935613512993,
+       "word_start": 0.03757556527853012,
+       "n_word_start_positions": 51,
+       "last_space": 0.024772008880972862,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11087214201688766,
+       "mean_lookback": 26.80244670347828
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03943709656596184,
+       "self_token": 0.05118973180651665,
+       "word_start": 0.03686222434043884,
+       "n_word_start_positions": 51,
+       "last_space": 0.024229157716035843,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10696152597665787,
+       "mean_lookback": 26.833397896749105
+      },
+      {
+       "prev_token": 0.03959034010767937,
+       "self_token": 0.04807240515947342,
+       "word_start": 0.038370970636606216,
+       "n_word_start_positions": 51,
+       "last_space": 0.0253169946372509,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10844482481479645,
+       "mean_lookback": 26.812062133267453
+      },
+      {
+       "prev_token": 0.04080434888601303,
+       "self_token": 0.04864796623587608,
+       "word_start": 0.03905295953154564,
+       "n_word_start_positions": 51,
+       "last_space": 0.024118557572364807,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1117873340845108,
+       "mean_lookback": 26.808384430029914
+      },
+      {
+       "prev_token": 0.039178941398859024,
+       "self_token": 0.04790709912776947,
+       "word_start": 0.038297731429338455,
+       "n_word_start_positions": 51,
+       "last_space": 0.02558179572224617,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10893179476261139,
+       "mean_lookback": 26.674140397575684
+      }
+     ],
+     [
+      {
+       "prev_token": 0.04113822430372238,
+       "self_token": 0.04989300295710564,
+       "word_start": 0.03736566752195358,
+       "n_word_start_positions": 51,
+       "last_space": 0.02632306143641472,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1083788201212883,
+       "mean_lookback": 26.250741936374215
+      },
+      {
+       "prev_token": 0.03872757405042648,
+       "self_token": 0.04833560809493065,
+       "word_start": 0.036015234887599945,
+       "n_word_start_positions": 51,
+       "last_space": 0.022577721625566483,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11083435267210007,
+       "mean_lookback": 27.131636446384988
+      },
+      {
+       "prev_token": 0.03984364494681358,
+       "self_token": 0.047495465725660324,
+       "word_start": 0.038638025522232056,
+       "n_word_start_positions": 51,
+       "last_space": 0.027330312877893448,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1097986102104187,
+       "mean_lookback": 26.694165524354
+      },
+      {
+       "prev_token": 0.04065897688269615,
+       "self_token": 0.04842304810881615,
+       "word_start": 0.03923041373491287,
+       "n_word_start_positions": 51,
+       "last_space": 0.025731680914759636,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10676369816064835,
+       "mean_lookback": 26.478579138008946
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03917555510997772,
+       "self_token": 0.04795731604099274,
+       "word_start": 0.03573376312851906,
+       "n_word_start_positions": 51,
+       "last_space": 0.024911342188715935,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10700897872447968,
+       "mean_lookback": 26.89037095033995
+      },
+      {
+       "prev_token": 0.0394512377679348,
+       "self_token": 0.04767414554953575,
+       "word_start": 0.03701576590538025,
+       "n_word_start_positions": 51,
+       "last_space": 0.02537740394473076,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1126670092344284,
+       "mean_lookback": 27.322541977240082
+      },
+      {
+       "prev_token": 0.03958940505981445,
+       "self_token": 0.04908774793148041,
+       "word_start": 0.03721276670694351,
+       "n_word_start_positions": 51,
+       "last_space": 0.023289905861020088,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11430153250694275,
+       "mean_lookback": 27.26405595234785
+      },
+      {
+       "prev_token": 0.0404626727104187,
+       "self_token": 0.04870590940117836,
+       "word_start": 0.0375656820833683,
+       "n_word_start_positions": 51,
+       "last_space": 0.02683957666158676,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10956966876983643,
+       "mean_lookback": 26.35314542401789
+      }
+     ]
+    ],
+    "verse": [
+     [
+      {
+       "prev_token": 0.03526698797941208,
+       "self_token": 0.041244104504585266,
+       "word_start": 0.017345983535051346,
+       "n_word_start_positions": 50,
+       "last_space": 0.02494983561336994,
+       "n_last_space_positions": 77,
+       "punct_any": 0.051165830343961716,
+       "mean_lookback": 31.53120289884845
+      },
+      {
+       "prev_token": 0.03582898527383804,
+       "self_token": 0.040902383625507355,
+       "word_start": 0.01711079850792885,
+       "n_word_start_positions": 50,
+       "last_space": 0.024563929066061974,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05041585490107536,
+       "mean_lookback": 31.65436081457003
+      },
+      {
+       "prev_token": 0.034672778099775314,
+       "self_token": 0.044575031846761703,
+       "word_start": 0.016507431864738464,
+       "n_word_start_positions": 50,
+       "last_space": 0.02489398419857025,
+       "n_last_space_positions": 77,
+       "punct_any": 0.050578515976667404,
+       "mean_lookback": 31.53434585799705
+      },
+      {
+       "prev_token": 0.035983942449092865,
+       "self_token": 0.04399293288588524,
+       "word_start": 0.016960198059678078,
+       "n_word_start_positions": 50,
+       "last_space": 0.02416428178548813,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04979642108082771,
+       "mean_lookback": 31.410189163420114
+      }
+     ],
+     [
+      {
+       "prev_token": 0.035305656492710114,
+       "self_token": 0.0439751073718071,
+       "word_start": 0.016831502318382263,
+       "n_word_start_positions": 50,
+       "last_space": 0.02503340132534504,
+       "n_last_space_positions": 77,
+       "punct_any": 0.048839274793863297,
+       "mean_lookback": 31.362529098232255
+      },
+      {
+       "prev_token": 0.035238511860370636,
+       "self_token": 0.04315244033932686,
+       "word_start": 0.017009958624839783,
+       "n_word_start_positions": 50,
+       "last_space": 0.025306953117251396,
+       "n_last_space_positions": 77,
+       "punct_any": 0.049964360892772675,
+       "mean_lookback": 31.45669495386592
+      },
+      {
+       "prev_token": 0.03522244468331337,
+       "self_token": 0.042719434946775436,
+       "word_start": 0.016877755522727966,
+       "n_word_start_positions": 50,
+       "last_space": 0.023703530430793762,
+       "n_last_space_positions": 77,
+       "punct_any": 0.050699569284915924,
+       "mean_lookback": 31.71289552877635
+      },
+      {
+       "prev_token": 0.03538934513926506,
+       "self_token": 0.04404953494668007,
+       "word_start": 0.017693178728222847,
+       "n_word_start_positions": 50,
+       "last_space": 0.025044212117791176,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04892764613032341,
+       "mean_lookback": 31.431799258387787
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03486676514148712,
+       "self_token": 0.042120642960071564,
+       "word_start": 0.016960613429546356,
+       "n_word_start_positions": 50,
+       "last_space": 0.023883886635303497,
+       "n_last_space_positions": 77,
+       "punct_any": 0.048244696110486984,
+       "mean_lookback": 31.303527010857735
+      },
+      {
+       "prev_token": 0.03482041135430336,
+       "self_token": 0.042814090847969055,
+       "word_start": 0.016073433682322502,
+       "n_word_start_positions": 50,
+       "last_space": 0.02437964268028736,
+       "n_last_space_positions": 77,
+       "punct_any": 0.050139669328927994,
+       "mean_lookback": 32.113873821437565
+      },
+      {
+       "prev_token": 0.03468591719865799,
+       "self_token": 0.042172327637672424,
+       "word_start": 0.017017686739563942,
+       "n_word_start_positions": 50,
+       "last_space": 0.02677534706890583,
+       "n_last_space_positions": 77,
+       "punct_any": 0.0532289519906044,
+       "mean_lookback": 31.52997094518542
+      },
+      {
+       "prev_token": 0.03494364768266678,
+       "self_token": 0.043707963079214096,
+       "word_start": 0.01711595244705677,
+       "n_word_start_positions": 50,
+       "last_space": 0.02496437169611454,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04718247056007385,
+       "mean_lookback": 31.170636055642724
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03471827879548073,
+       "self_token": 0.04210665076971054,
+       "word_start": 0.016944020986557007,
+       "n_word_start_positions": 50,
+       "last_space": 0.023549849167466164,
+       "n_last_space_positions": 77,
+       "punct_any": 0.0499422587454319,
+       "mean_lookback": 31.28191464063968
+      },
+      {
+       "prev_token": 0.03542068228125572,
+       "self_token": 0.043667104095220566,
+       "word_start": 0.017319725826382637,
+       "n_word_start_positions": 50,
+       "last_space": 0.025657759979367256,
+       "n_last_space_positions": 77,
+       "punct_any": 0.050282131880521774,
+       "mean_lookback": 31.278533744108753
+      },
+      {
+       "prev_token": 0.03481043130159378,
+       "self_token": 0.043384850025177,
+       "word_start": 0.016123296692967415,
+       "n_word_start_positions": 50,
+       "last_space": 0.02359982207417488,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05367376282811165,
+       "mean_lookback": 32.41809060619631
+      },
+      {
+       "prev_token": 0.03558516874909401,
+       "self_token": 0.042280592024326324,
+       "word_start": 0.017852215096354485,
+       "n_word_start_positions": 50,
+       "last_space": 0.02632412128150463,
+       "n_last_space_positions": 77,
+       "punct_any": 0.049552179872989655,
+       "mean_lookback": 30.960233986935044
+      }
+     ]
+    ],
+    "modern": [
+     [
+      {
+       "prev_token": 0.03584115952253342,
+       "self_token": 0.04125186428427696,
+       "word_start": 0.03493235260248184,
+       "n_word_start_positions": 60,
+       "last_space": 0.027275297790765762,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011332706548273563,
+       "mean_lookback": 31.22474613372931
+      },
+      {
+       "prev_token": 0.03513150289654732,
+       "self_token": 0.04221230372786522,
+       "word_start": 0.03488820046186447,
+       "n_word_start_positions": 60,
+       "last_space": 0.027223140001296997,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011317847296595573,
+       "mean_lookback": 31.41300207089692
+      },
+      {
+       "prev_token": 0.0346798449754715,
+       "self_token": 0.04475007578730583,
+       "word_start": 0.034900229424238205,
+       "n_word_start_positions": 60,
+       "last_space": 0.02790975570678711,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011561263352632523,
+       "mean_lookback": 31.279062353832174
+      },
+      {
+       "prev_token": 0.035033151507377625,
+       "self_token": 0.04414476081728935,
+       "word_start": 0.03421078249812126,
+       "n_word_start_positions": 60,
+       "last_space": 0.028163302689790726,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011225953698158264,
+       "mean_lookback": 31.252294078461883
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03550799936056137,
+       "self_token": 0.04371106997132301,
+       "word_start": 0.03480076789855957,
+       "n_word_start_positions": 60,
+       "last_space": 0.027699064463377,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01098643895238638,
+       "mean_lookback": 31.241014600583604
+      },
+      {
+       "prev_token": 0.035876110196113586,
+       "self_token": 0.04372932389378548,
+       "word_start": 0.03413781151175499,
+       "n_word_start_positions": 60,
+       "last_space": 0.028644708916544914,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011678285896778107,
+       "mean_lookback": 31.207409224173585
+      },
+      {
+       "prev_token": 0.03442568704485893,
+       "self_token": 0.04269030690193176,
+       "word_start": 0.03459737449884415,
+       "n_word_start_positions": 60,
+       "last_space": 0.027101632207632065,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01144471112638712,
+       "mean_lookback": 31.43969080074587
+      },
+      {
+       "prev_token": 0.034762874245643616,
+       "self_token": 0.04389243945479393,
+       "word_start": 0.03262075409293175,
+       "n_word_start_positions": 60,
+       "last_space": 0.027050267904996872,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01089690625667572,
+       "mean_lookback": 31.33492971261934
+      }
+     ],
+     [
+      {
+       "prev_token": 0.035110846161842346,
+       "self_token": 0.04345403239130974,
+       "word_start": 0.034782834351062775,
+       "n_word_start_positions": 60,
+       "last_space": 0.026515647768974304,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010819836519658566,
+       "mean_lookback": 31.474593890941748
+      },
+      {
+       "prev_token": 0.03502047806978226,
+       "self_token": 0.04297907277941704,
+       "word_start": 0.03379180654883385,
+       "n_word_start_positions": 60,
+       "last_space": 0.026555752381682396,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010337971150875092,
+       "mean_lookback": 32.04824152034486
+      },
+      {
+       "prev_token": 0.033796485513448715,
+       "self_token": 0.04267238453030586,
+       "word_start": 0.033329904079437256,
+       "n_word_start_positions": 60,
+       "last_space": 0.029402729123830795,
+       "n_last_space_positions": 81,
+       "punct_any": 0.012366295792162418,
+       "mean_lookback": 31.416250970473307
+      },
+      {
+       "prev_token": 0.035820577293634415,
+       "self_token": 0.04417966678738594,
+       "word_start": 0.03477960824966431,
+       "n_word_start_positions": 60,
+       "last_space": 0.027743257582187653,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010819196701049805,
+       "mean_lookback": 31.290305127969958
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03345489501953125,
+       "self_token": 0.040704622864723206,
+       "word_start": 0.03276662155985832,
+       "n_word_start_positions": 60,
+       "last_space": 0.026907166466116905,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01149552222341299,
+       "mean_lookback": 31.532339328548886
+      },
+      {
+       "prev_token": 0.03588173910975456,
+       "self_token": 0.042869921773672104,
+       "word_start": 0.033250387758016586,
+       "n_word_start_positions": 60,
+       "last_space": 0.031093580648303032,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01113108266144991,
+       "mean_lookback": 30.93595152500544
+      },
+      {
+       "prev_token": 0.03402296453714371,
+       "self_token": 0.042536817491054535,
+       "word_start": 0.03272378817200661,
+       "n_word_start_positions": 60,
+       "last_space": 0.026965025812387466,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010843764059245586,
+       "mean_lookback": 32.05338137206577
+      },
+      {
+       "prev_token": 0.03610289469361305,
+       "self_token": 0.04382912442088127,
+       "word_start": 0.03470607474446297,
+       "n_word_start_positions": 60,
+       "last_space": 0.027165934443473816,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01083101611584425,
+       "mean_lookback": 31.189931566863958
+      }
+     ]
+    ]
+   },
+   "val": [
+    [
+     {
+      "prev_token": 0.02027317916508764,
+      "self_token": 0.023193799890577793,
+      "word_start": 0.01895930989412591,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01617686360841617,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09125863816589116,
+      "mean_lookback": 63.75826762453251,
+      "prev_token_se": 3.225049476820648e-05,
+      "word_start_se": 0.00033471700170702845,
+      "last_space_se": 0.00024011171147152204,
+      "punct_any_se": 0.003448442774002009
+     },
+     {
+      "prev_token": 0.020138286729343237,
+      "self_token": 0.023419183073565365,
+      "word_start": 0.018829158716835083,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01600752759259194,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08953980333171785,
+      "mean_lookback": 63.829253698695574,
+      "prev_token_se": 3.2123555227318316e-05,
+      "word_start_se": 0.0003345507595101332,
+      "last_space_se": 0.00023485414619270063,
+      "punct_any_se": 0.0033924195483312977
+     },
+     {
+      "prev_token": 0.019838190684095026,
+      "self_token": 0.02491564138326794,
+      "word_start": 0.018620848457794638,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01607434874167666,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08947893925942481,
+      "mean_lookback": 63.79788329239527,
+      "prev_token_se": 2.2671042715743977e-05,
+      "word_start_se": 0.0003267976040025221,
+      "last_space_se": 0.00023534299954125517,
+      "punct_any_se": 0.0033879891270666234
+     },
+     {
+      "prev_token": 0.019920831848867237,
+      "self_token": 0.024463071185164154,
+      "word_start": 0.018728135188575835,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.0160553130088374,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09002075311727822,
+      "mean_lookback": 63.80566026674397,
+      "prev_token_se": 2.7282701480334642e-05,
+      "word_start_se": 0.0003334669630416072,
+      "last_space_se": 0.00023710907954114998,
+      "punct_any_se": 0.0034146167757190984
+     }
+    ],
+    [
+     {
+      "prev_token": 0.020160835515707732,
+      "self_token": 0.024601771077141166,
+      "word_start": 0.01888283046428114,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016136978333815933,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08777804230339825,
+      "mean_lookback": 63.63625947997677,
+      "prev_token_se": 2.6639812088801858e-05,
+      "word_start_se": 0.00032875993008004225,
+      "last_space_se": 0.00023688348633185558,
+      "punct_any_se": 0.003292606846736459
+     },
+     {
+      "prev_token": 0.020114230806939304,
+      "self_token": 0.02405155343003571,
+      "word_start": 0.018754906696267427,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016337090940214693,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08935072715394199,
+      "mean_lookback": 63.725786010734716,
+      "prev_token_se": 1.9483125404455147e-05,
+      "word_start_se": 0.0003346212485557015,
+      "last_space_se": 0.00023507289813631393,
+      "punct_any_se": 0.003367221940538419
+     },
+     {
+      "prev_token": 0.020071095763705672,
+      "self_token": 0.023919425741769373,
+      "word_start": 0.018719926523044706,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.015973934764042498,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08926468482241035,
+      "mean_lookback": 63.78532484530157,
+      "prev_token_se": 2.3480791519171195e-05,
+      "word_start_se": 0.00033075870036229264,
+      "last_space_se": 0.00023581089797171932,
+      "punct_any_se": 0.0033867751348484743
+     },
+     {
+      "prev_token": 0.019990324229001998,
+      "self_token": 0.024168484634719788,
+      "word_start": 0.018532770103774965,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016121748427394778,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08918397519737482,
+      "mean_lookback": 63.90793198918817,
+      "prev_token_se": 2.059453447467587e-05,
+      "word_start_se": 0.000328256294480223,
+      "last_space_se": 0.00024259793866791309,
+      "punct_any_se": 0.003384852459173351
+     }
+    ],
+    [
+     {
+      "prev_token": 0.02026129125151783,
+      "self_token": 0.024363418272696436,
+      "word_start": 0.018978568073362113,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01591290000360459,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08692873138934373,
+      "mean_lookback": 63.501581657038265,
+      "prev_token_se": 3.298436526415119e-05,
+      "word_start_se": 0.000330614127027136,
+      "last_space_se": 0.0002501766575654132,
+      "punct_any_se": 0.003367823889801209
+     },
+     {
+      "prev_token": 0.01970580865163356,
+      "self_token": 0.023651130497455597,
+      "word_start": 0.018342396582011134,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.015589972550515085,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08738062046468258,
+      "mean_lookback": 64.66597247423354,
+      "prev_token_se": 3.286864433952434e-05,
+      "word_start_se": 0.0003364883155697754,
+      "last_space_se": 0.00023936680705862474,
+      "punct_any_se": 0.0034233289240062905
+     },
+     {
+      "prev_token": 0.020071601727977395,
+      "self_token": 0.023783665359951557,
+      "word_start": 0.018957753747235982,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01728399471612647,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09280729475431145,
+      "mean_lookback": 63.91012235480832,
+      "prev_token_se": 2.972639602322368e-05,
+      "word_start_se": 0.0003291654617609895,
+      "last_space_se": 0.00026665311784599473,
+      "punct_any_se": 0.003453302178308885
+     },
+     {
+      "prev_token": 0.020341199077665805,
+      "self_token": 0.024624716956168413,
+      "word_start": 0.019026872981339694,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01683892912697047,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08888817960396408,
+      "mean_lookback": 63.21385962433011,
+      "prev_token_se": 2.992333797870794e-05,
+      "word_start_se": 0.000326251739059285,
+      "last_space_se": 0.000246123541182672,
+      "punct_any_se": 0.003328288302660916
+     }
+    ],
+    [
+     {
+      "prev_token": 0.019815188786014914,
+      "self_token": 0.02333925603888929,
+      "word_start": 0.01862430269829929,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.015601991908624768,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08896288890391588,
+      "mean_lookback": 64.08506770313825,
+      "prev_token_se": 5.04032724518057e-05,
+      "word_start_se": 0.0003414094242806371,
+      "last_space_se": 0.00022581360661029515,
+      "punct_any_se": 0.0033801066141169
+     },
+     {
+      "prev_token": 0.020806407858617603,
+      "self_token": 0.02468975093215704,
+      "word_start": 0.019136030739173294,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.017268936056643723,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08899954464286566,
+      "mean_lookback": 63.193270205004225,
+      "prev_token_se": 4.197251914234853e-05,
+      "word_start_se": 0.0003269588769258895,
+      "last_space_se": 0.00023269662231097083,
+      "punct_any_se": 0.003320005159117346
+     },
+     {
+      "prev_token": 0.02022822676226497,
+      "self_token": 0.02413584804162383,
+      "word_start": 0.018857322831172495,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016308410733472556,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09137316211126745,
+      "mean_lookback": 63.65051977424372,
+      "prev_token_se": 4.820909706828527e-05,
+      "word_start_se": 0.00034759129579110576,
+      "last_space_se": 0.00023470066795440366,
+      "punct_any_se": 0.003466773844092284
+     },
+     {
+      "prev_token": 0.019614031026139855,
+      "self_token": 0.023345849011093378,
+      "word_start": 0.01857036107685417,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.015888757980428637,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08912524520419537,
+      "mean_lookback": 63.86191933474337,
+      "prev_token_se": 5.3956986533922055e-05,
+      "word_start_se": 0.00034358572446091117,
+      "last_space_se": 0.00026300912241852993,
+      "punct_any_se": 0.003388299969413437
+     }
+    ]
+   ]
+  },
+  "untrained_s42": {
+   "text": {
+    "dialogue": [
+     [
+      {
+       "prev_token": 0.039882805198431015,
+       "self_token": 0.048609308898448944,
+       "word_start": 0.03562308847904205,
+       "n_word_start_positions": 51,
+       "last_space": 0.02564067579805851,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10895653069019318,
+       "mean_lookback": 26.686872812319994
+      },
+      {
+       "prev_token": 0.03920319303870201,
+       "self_token": 0.0480927899479866,
+       "word_start": 0.037971604615449905,
+       "n_word_start_positions": 51,
+       "last_space": 0.025513235479593277,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10964428633451462,
+       "mean_lookback": 26.79467246761649
+      },
+      {
+       "prev_token": 0.03933132812380791,
+       "self_token": 0.050289783626794815,
+       "word_start": 0.03724437952041626,
+       "n_word_start_positions": 51,
+       "last_space": 0.025334130972623825,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1088971197605133,
+       "mean_lookback": 26.747390941268318
+      },
+      {
+       "prev_token": 0.03972157835960388,
+       "self_token": 0.04919682443141937,
+       "word_start": 0.038821086287498474,
+       "n_word_start_positions": 51,
+       "last_space": 0.02573937177658081,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10886989533901215,
+       "mean_lookback": 26.70463198868351
+      }
+     ],
+     [
+      {
+       "prev_token": 0.0391114167869091,
+       "self_token": 0.04863441735506058,
+       "word_start": 0.04038536921143532,
+       "n_word_start_positions": 51,
+       "last_space": 0.02569396421313286,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10665125399827957,
+       "mean_lookback": 26.783337364538088
+      },
+      {
+       "prev_token": 0.03912845626473427,
+       "self_token": 0.04732242599129677,
+       "word_start": 0.041239120066165924,
+       "n_word_start_positions": 51,
+       "last_space": 0.024421587586402893,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11162764579057693,
+       "mean_lookback": 26.62693749764434
+      },
+      {
+       "prev_token": 0.03960346803069115,
+       "self_token": 0.04902663454413414,
+       "word_start": 0.03630218654870987,
+       "n_word_start_positions": 51,
+       "last_space": 0.024756379425525665,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10902269929647446,
+       "mean_lookback": 26.841241397170556
+      },
+      {
+       "prev_token": 0.040057286620140076,
+       "self_token": 0.04854339733719826,
+       "word_start": 0.038741584867239,
+       "n_word_start_positions": 51,
+       "last_space": 0.026101447641849518,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10610044002532959,
+       "mean_lookback": 26.60274306542016
+      }
+     ],
+     [
+      {
+       "prev_token": 0.0405970923602581,
+       "self_token": 0.04887641966342926,
+       "word_start": 0.03827918693423271,
+       "n_word_start_positions": 51,
+       "last_space": 0.02540089376270771,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11299815028905869,
+       "mean_lookback": 26.655212140275612
+      },
+      {
+       "prev_token": 0.03991088271141052,
+       "self_token": 0.048356618732213974,
+       "word_start": 0.03992239013314247,
+       "n_word_start_positions": 51,
+       "last_space": 0.023892853409051895,
+       "n_last_space_positions": 69,
+       "punct_any": 0.1084793359041214,
+       "mean_lookback": 26.457606897133196
+      },
+      {
+       "prev_token": 0.039419643580913544,
+       "self_token": 0.04984566569328308,
+       "word_start": 0.03559766337275505,
+       "n_word_start_positions": 51,
+       "last_space": 0.023204533383250237,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11126255989074707,
+       "mean_lookback": 26.772625957680347
+      },
+      {
+       "prev_token": 0.039434295147657394,
+       "self_token": 0.04808017611503601,
+       "word_start": 0.03784656897187233,
+       "n_word_start_positions": 51,
+       "last_space": 0.023679682984948158,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11015071719884872,
+       "mean_lookback": 26.942629096585463
+      }
+     ],
+     [
+      {
+       "prev_token": 0.04044346138834953,
+       "self_token": 0.049142852425575256,
+       "word_start": 0.037280116230249405,
+       "n_word_start_positions": 51,
+       "last_space": 0.025378599762916565,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10941233485937119,
+       "mean_lookback": 26.822053478353794
+      },
+      {
+       "prev_token": 0.04132184758782387,
+       "self_token": 0.05163765698671341,
+       "word_start": 0.0348031260073185,
+       "n_word_start_positions": 51,
+       "last_space": 0.02626936323940754,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11073170602321625,
+       "mean_lookback": 26.35127843780167
+      },
+      {
+       "prev_token": 0.038435712456703186,
+       "self_token": 0.04795671999454498,
+       "word_start": 0.03631100803613663,
+       "n_word_start_positions": 51,
+       "last_space": 0.022595830261707306,
+       "n_last_space_positions": 69,
+       "punct_any": 0.10665763914585114,
+       "mean_lookback": 27.417992506305584
+      },
+      {
+       "prev_token": 0.040543995797634125,
+       "self_token": 0.049447257071733475,
+       "word_start": 0.03535926714539528,
+       "n_word_start_positions": 51,
+       "last_space": 0.02480422519147396,
+       "n_last_space_positions": 69,
+       "punct_any": 0.11268123239278793,
+       "mean_lookback": 27.048025453769327
+      }
+     ]
+    ],
+    "verse": [
+     [
+      {
+       "prev_token": 0.0352105014026165,
+       "self_token": 0.042047832161188126,
+       "word_start": 0.017042608931660652,
+       "n_word_start_positions": 50,
+       "last_space": 0.025814523920416832,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05093042925000191,
+       "mean_lookback": 31.452997640926597
+      },
+      {
+       "prev_token": 0.03592369332909584,
+       "self_token": 0.041190896183252335,
+       "word_start": 0.01667296327650547,
+       "n_word_start_positions": 50,
+       "last_space": 0.02499287948012352,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05101257935166359,
+       "mean_lookback": 31.55153055529396
+      },
+      {
+       "prev_token": 0.035125743597745895,
+       "self_token": 0.04482743889093399,
+       "word_start": 0.017053823918104172,
+       "n_word_start_positions": 50,
+       "last_space": 0.02485433965921402,
+       "n_last_space_positions": 77,
+       "punct_any": 0.049281977117061615,
+       "mean_lookback": 31.496526104005742
+      },
+      {
+       "prev_token": 0.0353064239025116,
+       "self_token": 0.04381792992353439,
+       "word_start": 0.01718020997941494,
+       "n_word_start_positions": 50,
+       "last_space": 0.02469410002231598,
+       "n_last_space_positions": 77,
+       "punct_any": 0.049813494086265564,
+       "mean_lookback": 31.437961373976837
+      }
+     ],
+     [
+      {
+       "prev_token": 0.0357806421816349,
+       "self_token": 0.0444798581302166,
+       "word_start": 0.016704950481653214,
+       "n_word_start_positions": 50,
+       "last_space": 0.02419212833046913,
+       "n_last_space_positions": 77,
+       "punct_any": 0.048852868378162384,
+       "mean_lookback": 31.469466911727842
+      },
+      {
+       "prev_token": 0.035029470920562744,
+       "self_token": 0.042454201728105545,
+       "word_start": 0.016981376335024834,
+       "n_word_start_positions": 50,
+       "last_space": 0.025530077517032623,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05169499292969704,
+       "mean_lookback": 31.596246421414126
+      },
+      {
+       "prev_token": 0.03462202474474907,
+       "self_token": 0.042986173182725906,
+       "word_start": 0.01632268726825714,
+       "n_word_start_positions": 50,
+       "last_space": 0.025659756734967232,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05183780565857887,
+       "mean_lookback": 31.505099341621637
+      },
+      {
+       "prev_token": 0.03491927683353424,
+       "self_token": 0.04332515224814415,
+       "word_start": 0.016919786110520363,
+       "n_word_start_positions": 50,
+       "last_space": 0.025201736018061638,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04858909174799919,
+       "mean_lookback": 31.350422443833025
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03534489870071411,
+       "self_token": 0.04269685223698616,
+       "word_start": 0.016977371647953987,
+       "n_word_start_positions": 50,
+       "last_space": 0.024995854124426842,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05408763512969017,
+       "mean_lookback": 31.45474180376421
+      },
+      {
+       "prev_token": 0.03439682349562645,
+       "self_token": 0.04226798191666603,
+       "word_start": 0.017807340249419212,
+       "n_word_start_positions": 50,
+       "last_space": 0.023613929748535156,
+       "n_last_space_positions": 77,
+       "punct_any": 0.048591747879981995,
+       "mean_lookback": 31.524831634102846
+      },
+      {
+       "prev_token": 0.036116063594818115,
+       "self_token": 0.04423511400818825,
+       "word_start": 0.017204005271196365,
+       "n_word_start_positions": 50,
+       "last_space": 0.024258220568299294,
+       "n_last_space_positions": 77,
+       "punct_any": 0.049390774220228195,
+       "mean_lookback": 31.44662379192951
+      },
+      {
+       "prev_token": 0.03585551306605339,
+       "self_token": 0.04244622588157654,
+       "word_start": 0.017312750220298767,
+       "n_word_start_positions": 50,
+       "last_space": 0.025788258761167526,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04928101599216461,
+       "mean_lookback": 31.46111068860298
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03488544002175331,
+       "self_token": 0.041226278990507126,
+       "word_start": 0.016143135726451874,
+       "n_word_start_positions": 50,
+       "last_space": 0.025371672585606575,
+       "n_last_space_positions": 77,
+       "punct_any": 0.0486239418387413,
+       "mean_lookback": 31.78405157861659
+      },
+      {
+       "prev_token": 0.03529898822307587,
+       "self_token": 0.042259763926267624,
+       "word_start": 0.016882048919796944,
+       "n_word_start_positions": 50,
+       "last_space": 0.025113750249147415,
+       "n_last_space_positions": 77,
+       "punct_any": 0.04870268702507019,
+       "mean_lookback": 31.047530229419735
+      },
+      {
+       "prev_token": 0.03777460753917694,
+       "self_token": 0.044879186898469925,
+       "word_start": 0.017636850476264954,
+       "n_word_start_positions": 50,
+       "last_space": 0.025484856218099594,
+       "n_last_space_positions": 77,
+       "punct_any": 0.048086997121572495,
+       "mean_lookback": 31.52389362962975
+      },
+      {
+       "prev_token": 0.03492291271686554,
+       "self_token": 0.042718417942523956,
+       "word_start": 0.016386330127716064,
+       "n_word_start_positions": 50,
+       "last_space": 0.024803902953863144,
+       "n_last_space_positions": 77,
+       "punct_any": 0.05067411810159683,
+       "mean_lookback": 31.614145922786225
+      }
+     ]
+    ],
+    "modern": [
+     [
+      {
+       "prev_token": 0.0351167730987072,
+       "self_token": 0.04236393794417381,
+       "word_start": 0.03473571315407753,
+       "n_word_start_positions": 60,
+       "last_space": 0.029036810621619225,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011342950165271759,
+       "mean_lookback": 31.24324648444068
+      },
+      {
+       "prev_token": 0.036556947976350784,
+       "self_token": 0.04228406026959419,
+       "word_start": 0.03372250497341156,
+       "n_word_start_positions": 60,
+       "last_space": 0.028576768934726715,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011396459303796291,
+       "mean_lookback": 31.23133699818411
+      },
+      {
+       "prev_token": 0.03458476439118385,
+       "self_token": 0.04609929025173187,
+       "word_start": 0.0334223136305809,
+       "n_word_start_positions": 60,
+       "last_space": 0.02776644006371498,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01095099002122879,
+       "mean_lookback": 31.250483349908055
+      },
+      {
+       "prev_token": 0.03498000651597977,
+       "self_token": 0.043714724481105804,
+       "word_start": 0.034333474934101105,
+       "n_word_start_positions": 60,
+       "last_space": 0.028186634182929993,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011552323587238789,
+       "mean_lookback": 31.181677146796286
+      }
+     ],
+     [
+      {
+       "prev_token": 0.035756777971982956,
+       "self_token": 0.04467996954917908,
+       "word_start": 0.03346439078450203,
+       "n_word_start_positions": 60,
+       "last_space": 0.027219777926802635,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01143944263458252,
+       "mean_lookback": 31.10478486858737
+      },
+      {
+       "prev_token": 0.0351385623216629,
+       "self_token": 0.04125525802373886,
+       "word_start": 0.034284770488739014,
+       "n_word_start_positions": 60,
+       "last_space": 0.02798532322049141,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011771975085139275,
+       "mean_lookback": 31.2497207093873
+      },
+      {
+       "prev_token": 0.03535902500152588,
+       "self_token": 0.04380834847688675,
+       "word_start": 0.03428121283650398,
+       "n_word_start_positions": 60,
+       "last_space": 0.028944656252861023,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011838390491902828,
+       "mean_lookback": 31.256512540414754
+      },
+      {
+       "prev_token": 0.03572232276201248,
+       "self_token": 0.04429466277360916,
+       "word_start": 0.03562624007463455,
+       "n_word_start_positions": 60,
+       "last_space": 0.028398575261235237,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01156869251281023,
+       "mean_lookback": 31.036217224643757
+      }
+     ],
+     [
+      {
+       "prev_token": 0.035413097590208054,
+       "self_token": 0.043136920779943466,
+       "word_start": 0.034334924072027206,
+       "n_word_start_positions": 60,
+       "last_space": 0.02889532782137394,
+       "n_last_space_positions": 81,
+       "punct_any": 0.012081771157681942,
+       "mean_lookback": 30.83350256357401
+      },
+      {
+       "prev_token": 0.036518316715955734,
+       "self_token": 0.04419257864356041,
+       "word_start": 0.03398305922746658,
+       "n_word_start_positions": 60,
+       "last_space": 0.027472984045743942,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011708336882293224,
+       "mean_lookback": 30.9787614845619
+      },
+      {
+       "prev_token": 0.034999001771211624,
+       "self_token": 0.04335353150963783,
+       "word_start": 0.03368961438536644,
+       "n_word_start_positions": 60,
+       "last_space": 0.0266075748950243,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011517828330397606,
+       "mean_lookback": 31.432046143408304
+      },
+      {
+       "prev_token": 0.03555137664079666,
+       "self_token": 0.04260711371898651,
+       "word_start": 0.03484364226460457,
+       "n_word_start_positions": 60,
+       "last_space": 0.027443261817097664,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010928305797278881,
+       "mean_lookback": 31.222276719505086
+      }
+     ],
+     [
+      {
+       "prev_token": 0.03560708463191986,
+       "self_token": 0.04285519942641258,
+       "word_start": 0.03324148803949356,
+       "n_word_start_positions": 60,
+       "last_space": 0.02758064679801464,
+       "n_last_space_positions": 81,
+       "punct_any": 0.010826571844518185,
+       "mean_lookback": 31.599128769518483
+      },
+      {
+       "prev_token": 0.034131020307540894,
+       "self_token": 0.042173322290182114,
+       "word_start": 0.033236656337976456,
+       "n_word_start_positions": 60,
+       "last_space": 0.028301933780312538,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011112154461443424,
+       "mean_lookback": 30.839422997756166
+      },
+      {
+       "prev_token": 0.03610604256391525,
+       "self_token": 0.0440383143723011,
+       "word_start": 0.034790266305208206,
+       "n_word_start_positions": 60,
+       "last_space": 0.026479391381144524,
+       "n_last_space_positions": 81,
+       "punct_any": 0.011344453319907188,
+       "mean_lookback": 31.422189186260635
+      },
+      {
+       "prev_token": 0.03640589118003845,
+       "self_token": 0.04301977530121803,
+       "word_start": 0.035131439566612244,
+       "n_word_start_positions": 60,
+       "last_space": 0.028691444545984268,
+       "n_last_space_positions": 81,
+       "punct_any": 0.01165709737688303,
+       "mean_lookback": 31.07139175628046
+      }
+     ]
+    ]
+   },
+   "val": [
+    [
+     {
+      "prev_token": 0.02003924548625946,
+      "self_token": 0.02370838262140751,
+      "word_start": 0.01858694348484278,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01658986428519711,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.0897121203597635,
+      "mean_lookback": 63.6368883530051,
+      "prev_token_se": 2.8375491125786258e-05,
+      "word_start_se": 0.0003260709398913125,
+      "last_space_se": 0.00024198357165784902,
+      "punct_any_se": 0.003357721669024333
+     },
+     {
+      "prev_token": 0.020216456637717782,
+      "self_token": 0.023544005770236253,
+      "word_start": 0.018480142869520932,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01622338336892426,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08895743368193507,
+      "mean_lookback": 63.761546183666475,
+      "prev_token_se": 2.6389045903169176e-05,
+      "word_start_se": 0.00032923526126748436,
+      "last_space_se": 0.00023849348233103828,
+      "punct_any_se": 0.0033834048412896274
+     },
+     {
+      "prev_token": 0.019969810894690455,
+      "self_token": 0.02491805322933942,
+      "word_start": 0.018670366937294604,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01618078104220331,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08987454609014094,
+      "mean_lookback": 63.72453369818959,
+      "prev_token_se": 2.9023058802031684e-05,
+      "word_start_se": 0.00033160125177142993,
+      "last_space_se": 0.00023335253975229764,
+      "punct_any_se": 0.003429113580940641
+     },
+     {
+      "prev_token": 0.02009611073881388,
+      "self_token": 0.024319762038066982,
+      "word_start": 0.018777880305424332,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01622650569770485,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08908350407145918,
+      "mean_lookback": 63.6863473512405,
+      "prev_token_se": 3.376904000632787e-05,
+      "word_start_se": 0.0003328839679604784,
+      "last_space_se": 0.00023561050716853227,
+      "punct_any_se": 0.003376124862428175
+     }
+    ],
+    [
+     {
+      "prev_token": 0.020178053504787387,
+      "self_token": 0.02434272973332554,
+      "word_start": 0.01857817837735638,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016045764239970596,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.0894539840053767,
+      "mean_lookback": 63.74448039582262,
+      "prev_token_se": 3.4983157842841845e-05,
+      "word_start_se": 0.00034038898726614417,
+      "last_space_se": 0.0002373120564694576,
+      "punct_any_se": 0.003395216070775022
+     },
+     {
+      "prev_token": 0.020007961662486196,
+      "self_token": 0.023696486838161945,
+      "word_start": 0.018743639101739974,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01633579349145293,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.0924774704966694,
+      "mean_lookback": 63.82090693943631,
+      "prev_token_se": 2.490905304989617e-05,
+      "word_start_se": 0.0003381151959349923,
+      "last_space_se": 0.00023630347907737016,
+      "punct_any_se": 0.0034143853127858387
+     },
+     {
+      "prev_token": 0.019906217884272336,
+      "self_token": 0.024203973985277117,
+      "word_start": 0.01845868843374774,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01644791110884398,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08918682280927896,
+      "mean_lookback": 63.854901373048016,
+      "prev_token_se": 2.8657941792713423e-05,
+      "word_start_se": 0.000321640749061258,
+      "last_space_se": 0.00024143988491262655,
+      "punct_any_se": 0.0033643982307287813
+     },
+     {
+      "prev_token": 0.02015831440221518,
+      "self_token": 0.024614920490421355,
+      "word_start": 0.01886157487751916,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016484074632171542,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08690556176006795,
+      "mean_lookback": 63.47012305468578,
+      "prev_token_se": 2.4663486835534204e-05,
+      "word_start_se": 0.00032270164238313095,
+      "last_space_se": 0.00023019082750573238,
+      "punct_any_se": 0.0032833818603212137
+     }
+    ],
+    [
+     {
+      "prev_token": 0.019993620668537916,
+      "self_token": 0.02379264070186764,
+      "word_start": 0.018637837620917707,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016638756485190243,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.0925847225356847,
+      "mean_lookback": 63.01669652954597,
+      "prev_token_se": 3.335427113449881e-05,
+      "word_start_se": 0.0003392772256257761,
+      "last_space_se": 0.00023201299044503014,
+      "punct_any_se": 0.0035200681316917507
+     },
+     {
+      "prev_token": 0.020371226500719784,
+      "self_token": 0.024258419638499618,
+      "word_start": 0.01884710876038298,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.0159251143806614,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09082842664793134,
+      "mean_lookback": 64.10266740079743,
+      "prev_token_se": 2.693930113051859e-05,
+      "word_start_se": 0.00033458097485028644,
+      "last_space_se": 0.00022877828116981476,
+      "punct_any_se": 0.0034469522065802083
+     },
+     {
+      "prev_token": 0.020037717721424996,
+      "self_token": 0.024119061441160737,
+      "word_start": 0.01875412140507251,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.015435916231945157,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08971565454266965,
+      "mean_lookback": 64.05607997926214,
+      "prev_token_se": 4.550461866401637e-05,
+      "word_start_se": 0.0003256834133221793,
+      "last_space_se": 0.00024207754303625962,
+      "punct_any_se": 0.003443908434402768
+     },
+     {
+      "prev_token": 0.020300307683646678,
+      "self_token": 0.024030351848341524,
+      "word_start": 0.019330029212869703,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016059409675654022,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08913887357339263,
+      "mean_lookback": 63.68640726176346,
+      "prev_token_se": 3.198520877595837e-05,
+      "word_start_se": 0.0003361561863165099,
+      "last_space_se": 0.00023528295656291816,
+      "punct_any_se": 0.0033515011571152793
+     }
+    ],
+    [
+     {
+      "prev_token": 0.01965586554724723,
+      "self_token": 0.02333735905122012,
+      "word_start": 0.018362964631523936,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016051786963362246,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08804566962644458,
+      "mean_lookback": 63.1971602418673,
+      "prev_token_se": 5.0788185429801914e-05,
+      "word_start_se": 0.0003180199861586802,
+      "last_space_se": 0.00023712983851310735,
+      "punct_any_se": 0.0033685909294231876
+     },
+     {
+      "prev_token": 0.02013155419845134,
+      "self_token": 0.02379741845652461,
+      "word_start": 0.018655699025839568,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.01664133684244007,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.08791720075532794,
+      "mean_lookback": 62.96134369674053,
+      "prev_token_se": 4.124992784332538e-05,
+      "word_start_se": 0.00034460697443944977,
+      "last_space_se": 0.00023210730614629742,
+      "punct_any_se": 0.003391245737658864
+     },
+     {
+      "prev_token": 0.02039332704152912,
+      "self_token": 0.0240457370178774,
+      "word_start": 0.018664238054770976,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.015939306735526772,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.0875477388035506,
+      "mean_lookback": 64.16433480481102,
+      "prev_token_se": 5.3355895023719845e-05,
+      "word_start_se": 0.0003197788031363108,
+      "last_space_se": 0.00024573271819891264,
+      "punct_any_se": 0.0033225598988409805
+     },
+     {
+      "prev_token": 0.020085747027769683,
+      "self_token": 0.023656467301771046,
+      "word_start": 0.01853076498955488,
+      "n_word_start_positions": 100.8625,
+      "last_space": 0.016416815004777163,
+      "n_last_space_positions": 158.1375,
+      "punct_any": 0.09055565954186022,
+      "mean_lookback": 63.95464949602085,
+      "prev_token_se": 3.5750583148335e-05,
+      "word_start_se": 0.00035750330253541155,
+      "last_space_se": 0.0002338464988745339,
+      "punct_any_se": 0.003430390671498001
+     }
+    ]
+   ]
+  }
+ }
+}

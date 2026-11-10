@@ -1,0 +1,28 @@
+# HW1 part 2 control: each recurrent cell at its own learning rate (same budget as 01_char_models.yaml).
+# Added after hw1_rnn_controls showed the vanilla RNN still improving at lr=4e-3.
+name: hw1_lr_controls
+base: ../../../repo/DeepDataMiningLearning/llm/nanolm/configs/02_char_transformer.yaml
+seeds: [1337, 42]
+common:
+  train.max_steps: 2000
+  train.seq_len: 256
+  train.batch_size: 32
+  train.weight_decay: 0.0
+  model.n_layers: 2
+runs:
+  - name: rnn_lr8e-3
+    overrides: {model.arch: rnn, model.dim: 256, train.lr: 0.008}
+  - name: rnn_lr1.6e-2
+    overrides: {model.arch: rnn, model.dim: 256, train.lr: 0.016}
+  - name: rnn512_lr4e-3
+    overrides: {model.arch: rnn, model.dim: 512, train.lr: 0.004}
+  - name: rnn512_lr8e-3
+    overrides: {model.arch: rnn, model.dim: 512, train.lr: 0.008}
+  - name: lstm_lr1e-3
+    overrides: {model.arch: lstm, model.dim: 256, train.lr: 0.001}
+  - name: lstm_lr4e-3
+    overrides: {model.arch: lstm, model.dim: 256, train.lr: 0.004}
+  - name: gru_lr1e-3
+    overrides: {model.arch: gru, model.dim: 256, train.lr: 0.001}
+  - name: gru_lr4e-3
+    overrides: {model.arch: gru, model.dim: 256, train.lr: 0.004}

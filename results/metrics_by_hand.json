@@ -1,0 +1,56 @@
+{
+ "gpt_modern_s1337": {
+  "logged": {
+   "val_loss": 1.4579363316437421,
+   "val_ppl": 4.297082618572494,
+   "val_bpb": 2.103357515594274,
+   "val_tokens": 111360,
+   "val_bytes": 111360
+  },
+  "from_metrics_json": {
+   "total_nats": 162355.78989184712,
+   "loss": 1.4579363316437421,
+   "ppl": 4.297082618572494,
+   "bits_per_token": 2.103357515594274,
+   "tokens_per_byte": 1.0,
+   "bpb": 2.103357515594274
+  },
+  "independent_forward_pass": {
+   "total_nats": 162355.83203125,
+   "tokens": 111360,
+   "bytes_utf8": 111360,
+   "loss": 1.4579367100507363,
+   "ppl": 4.297084244618919,
+   "bits_per_token": 2.1033580615201677,
+   "bpb": 2.103358061520168
+  },
+  "ln_ppl_equals_loss": 0.0
+ },
+ "lstm_s1337": {
+  "logged": {
+   "val_loss": 1.4857193213781625,
+   "val_ppl": 4.418142334260622,
+   "val_bpb": 2.143439897105191,
+   "val_tokens": 111360,
+   "val_bytes": 111360
+  },
+  "from_metrics_json": {
+   "total_nats": 165449.70362867217,
+   "loss": 1.4857193213781625,
+   "ppl": 4.418142334260622,
+   "bits_per_token": 2.1434398971051913,
+   "tokens_per_byte": 1.0,
+   "bpb": 2.143439897105191
+  },
+  "independent_forward_pass": {
+   "total_nats": 165449.705078125,
+   "tokens": 111360,
+   "bytes_utf8": 111360,
+   "loss": 1.4857193343940822,
+   "ppl": 4.418142391766809,
+   "bits_per_token": 2.143439915883194,
+   "bpb": 2.143439915883194
+  },
+  "ln_ppl_equals_loss": 0.0
+ }
+}

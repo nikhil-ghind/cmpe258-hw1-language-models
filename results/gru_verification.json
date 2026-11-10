@@ -1,0 +1,32 @@
+{
+ "random_L1_D16_H32_T50": {
+  "output_max_abs_diff": 2.220446049250313e-16,
+  "grad_max_abs_diff": 4.440892098500626e-16,
+  "output_abs_scale": 0.19158701192221478,
+  "grad_abs_scale": 0.22499244260312246
+ },
+ "random_L2_D64_H128_T100": {
+  "output_max_abs_diff": 3.0531133177191805e-16,
+  "grad_max_abs_diff": 5.551115123125783e-16,
+  "output_abs_scale": 0.090454510280259,
+  "grad_abs_scale": 0.07656182909177967
+ },
+ "random_L3_D32_H32_T200": {
+  "output_max_abs_diff": 1.1102230246251565e-16,
+  "grad_max_abs_diff": 1.1102230246251565e-16,
+  "output_abs_scale": 0.10367054803988923,
+  "grad_abs_scale": 0.03333554037377942
+ },
+ "trained:gru_s1337": {
+  "output_max_abs_diff": 3.101685575046531e-15,
+  "grad_max_abs_diff": 5.684341886080802e-14,
+  "output_abs_scale": 0.3239487790742395,
+  "grad_abs_scale": 3.395577343355831
+ },
+ "trained:gru_s42": {
+  "output_max_abs_diff": 3.6637359812630166e-15,
+  "grad_max_abs_diff": 7.105427357601002e-14,
+  "output_abs_scale": 0.337460589026916,
+  "grad_abs_scale": 3.2777000330671386
+ }
+}

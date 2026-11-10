@@ -1,0 +1,167 @@
+=== hw1_untrained Sun Nov  8 03:12:53 PM PST 2026
+[sweep] hw1_untrained: 6 runs (0 already done) -> <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_untrained
+   char                         seed=1337   train.max_steps=1 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false data.tokenizer="char"
+   char                         seed=42     train.max_steps=1 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false data.tokenizer="char"
+   byte                         seed=1337   train.max_steps=1 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false data.tokenizer="byte"
+   byte                         seed=42     train.max_steps=1 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false data.tokenizer="byte"
+   gpt2                         seed=1337   train.max_steps=1 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false data.tokenizer="gpt2"
+   gpt2                         seed=42     train.max_steps=1 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false data.tokenizer="gpt2"
+[sweep] start char s1337 on default device
+[sweep] done  char s1337 | val_bpb 6.0018 | 0.1 min elapsed
+[sweep] start char s42 on default device
+[sweep] done  char s42 | val_bpb 6.0247 | 0.2 min elapsed
+[sweep] start byte s1337 on default device
+[sweep] done  byte s1337 | val_bpb 7.8533 | 0.2 min elapsed
+[sweep] start byte s42 on default device
+[sweep] done  byte s42 | val_bpb 7.8492 | 0.3 min elapsed
+[sweep] start gpt2 s1337 on default device
+[sweep] done  gpt2 s1337 | val_bpb 5.0353 | 0.4 min elapsed
+[sweep] start gpt2 s42 on default device
+[sweep] done  gpt2 s42 | val_bpb 5.0384 | 0.5 min elapsed
+[sweep] finished (0 failed in this process). Analyze with:
+   python -m nanolm.analyze <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_untrained
+=== 01_char_models Sun Nov  8 03:13:25 PM PST 2026
+[sweep] char_models: 12 runs (0 already done) -> <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/char_models
+   rnn                          seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0
+   rnn                          seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0
+   gru                          seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="gru" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0
+   gru                          seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="gru" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0
+   lstm                         seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0
+   lstm                         seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0
+   lstm_512                     seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="lstm" model.n_layers=2 model.dim=512 train.lr="2e-3" train.weight_decay=0.0
+   lstm_512                     seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.arch="lstm" model.n_layers=2 model.dim=512 train.lr="2e-3" train.weight_decay=0.0
+   gpt_textbook                 seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32
+   gpt_textbook                 seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32
+   gpt_modern                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false
+   gpt_modern                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false
+[sweep] start rnn s1337 on default device
+[sweep] done  rnn s1337 | val_bpb 2.4404 | 0.2 min elapsed
+[sweep] start rnn s42 on default device
+[sweep] done  rnn s42 | val_bpb 2.4397 | 0.3 min elapsed
+[sweep] start gru s1337 on default device
+[sweep] done  gru s1337 | val_bpb 2.1575 | 0.7 min elapsed
+[sweep] start gru s42 on default device
+[sweep] done  gru s42 | val_bpb 2.1676 | 1.1 min elapsed
+[sweep] start lstm s1337 on default device
+[sweep] done  lstm s1337 | val_bpb 2.1434 | 1.5 min elapsed
+[sweep] start lstm s42 on default device
+[sweep] done  lstm s42 | val_bpb 2.1266 | 1.8 min elapsed
+[sweep] start lstm_512 s1337 on default device
+[sweep] done  lstm_512 s1337 | val_bpb 2.1718 | 2.5 min elapsed
+[sweep] start lstm_512 s42 on default device
+[sweep] done  lstm_512 s42 | val_bpb 2.1648 | 3.2 min elapsed
+[sweep] start gpt_textbook s1337 on default device
+[sweep] done  gpt_textbook s1337 | val_bpb 2.1742 | 3.9 min elapsed
+[sweep] start gpt_textbook s42 on default device
+[sweep] done  gpt_textbook s42 | val_bpb 2.1883 | 4.5 min elapsed
+[sweep] start gpt_modern s1337 on default device
+[sweep] done  gpt_modern s1337 | val_bpb 2.1034 | 5.4 min elapsed
+[sweep] start gpt_modern s42 on default device
+[sweep] done  gpt_modern s42 | val_bpb 2.1031 | 6.2 min elapsed
+[sweep] finished (0 failed in this process). Analyze with:
+   python -m nanolm.analyze <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/char_models
+=== hw1_rnn_controls Sun Nov  8 03:19:39 PM PST 2026
+[sweep] hw1_rnn_controls: 8 runs (0 already done) -> <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_rnn_controls
+   rnn_512_paramsmatch          seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=512 train.lr="2e-3"
+   rnn_512_paramsmatch          seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=512 train.lr="2e-3"
+   rnn_lr4e-3                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="4e-3"
+   rnn_lr4e-3                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="4e-3"
+   rnn_lr1e-3                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="1e-3"
+   rnn_lr1e-3                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="1e-3"
+   rnn_lr5e-4                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="5e-4"
+   rnn_lr5e-4                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.arch="rnn" model.n_layers=2 model.dim=256 train.lr="5e-4"
+[sweep] start rnn_512_paramsmatch s1337 on default device
+[sweep] done  rnn_512_paramsmatch s1337 | val_bpb 2.2333 | 0.4 min elapsed
+[sweep] start rnn_512_paramsmatch s42 on default device
+[sweep] done  rnn_512_paramsmatch s42 | val_bpb 2.2104 | 0.7 min elapsed
+[sweep] start rnn_lr4e-3 s1337 on default device
+[sweep] done  rnn_lr4e-3 s1337 | val_bpb 2.2585 | 0.9 min elapsed
+[sweep] start rnn_lr4e-3 s42 on default device
+[sweep] done  rnn_lr4e-3 s42 | val_bpb 2.2718 | 1.1 min elapsed
+[sweep] start rnn_lr1e-3 s1337 on default device
+[sweep] done  rnn_lr1e-3 s1337 | val_bpb 2.9116 | 1.2 min elapsed
+[sweep] start rnn_lr1e-3 s42 on default device
+[sweep] done  rnn_lr1e-3 s42 | val_bpb 2.9248 | 1.5 min elapsed
+[sweep] start rnn_lr5e-4 s1337 on default device
+[sweep] done  rnn_lr5e-4 s1337 | val_bpb 3.0312 | 1.7 min elapsed
+[sweep] start rnn_lr5e-4 s42 on default device
+[sweep] done  rnn_lr5e-4 s42 | val_bpb 3.0280 | 2.0 min elapsed
+[sweep] finished (0 failed in this process). Analyze with:
+   python -m nanolm.analyze <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_rnn_controls
+=== hw1_context Sun Nov  8 03:21:37 PM PST 2026
+[sweep] hw1_context: 24 runs (0 already done) -> <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context
+   lstm_T64                     seed=1337   train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=64 train.batch_size=128
+   lstm_T64                     seed=42     train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=64 train.batch_size=128
+   lstm_T64                     seed=7      train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=64 train.batch_size=128
+   lstm_T128                    seed=1337   train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=128 train.batch_size=64
+   lstm_T128                    seed=42     train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=128 train.batch_size=64
+   lstm_T128                    seed=7      train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=128 train.batch_size=64
+   lstm_T256                    seed=1337   train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=256 train.batch_size=32
+   lstm_T256                    seed=42     train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=256 train.batch_size=32
+   lstm_T256                    seed=7      train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=256 train.batch_size=32
+   lstm_T512                    seed=1337   train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=512 train.batch_size=16
+   lstm_T512                    seed=42     train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=512 train.batch_size=16
+   lstm_T512                    seed=7      train.max_steps=2000 model.arch="lstm" model.n_layers=2 model.dim=256 train.lr="2e-3" train.weight_decay=0.0 train.seq_len=512 train.batch_size=16
+   gpt_T64                      seed=1337   train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=64 train.batch_size=128
+   gpt_T64                      seed=42     train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=64 train.batch_size=128
+   gpt_T64                      seed=7      train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=64 train.batch_size=128
+   gpt_T128                     seed=1337   train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=128 train.batch_size=64
+   gpt_T128                     seed=42     train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=128 train.batch_size=64
+   gpt_T128                     seed=7      train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=128 train.batch_size=64
+   gpt_T256                     seed=1337   train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=256 train.batch_size=32
+   gpt_T256                     seed=42     train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=256 train.batch_size=32
+   gpt_T256                     seed=7      train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=256 train.batch_size=32
+   gpt_T512                     seed=1337   train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=512 train.batch_size=16
+   gpt_T512                     seed=42     train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=512 train.batch_size=16
+   gpt_T512                     seed=7      train.max_steps=2000 model.norm="rmsnorm" model.pos="rope" model.mlp="swiglu" model.bias=false train.seq_len=512 train.batch_size=16
+[sweep] start lstm_T64 s1337 on default device
+[sweep] done  lstm_T64 s1337 | val_bpb 2.1890 | 0.5 min elapsed
+[sweep] start lstm_T64 s42 on default device
+[sweep] done  lstm_T64 s42 | val_bpb 2.1905 | 1.1 min elapsed
+[sweep] start lstm_T64 s7 on default device
+[sweep] done  lstm_T64 s7 | val_bpb 2.1776 | 1.6 min elapsed
+[sweep] start lstm_T128 s1337 on default device
+[sweep] done  lstm_T128 s1337 | val_bpb 2.1547 | 2.1 min elapsed
+[sweep] start lstm_T128 s42 on default device
+[sweep] done  lstm_T128 s42 | val_bpb 2.1513 | 2.6 min elapsed
+[sweep] start lstm_T128 s7 on default device
+[sweep] done  lstm_T128 s7 | val_bpb 2.1537 | 3.2 min elapsed
+[sweep] start lstm_T256 s1337 on default device
+[sweep] done  lstm_T256 s1337 | val_bpb 2.1433 | 3.8 min elapsed
+[sweep] start lstm_T256 s42 on default device
+[sweep] done  lstm_T256 s42 | val_bpb 2.1265 | 4.4 min elapsed
+[sweep] start lstm_T256 s7 on default device
+[sweep] done  lstm_T256 s7 | val_bpb 2.1390 | 5.0 min elapsed
+[sweep] start lstm_T512 s1337 on default device
+[sweep] done  lstm_T512 s1337 | val_bpb 2.1275 | 5.7 min elapsed
+[sweep] start lstm_T512 s42 on default device
+[sweep] done  lstm_T512 s42 | val_bpb 2.1240 | 6.4 min elapsed
+[sweep] start lstm_T512 s7 on default device
+[sweep] done  lstm_T512 s7 | val_bpb 2.1314 | 7.1 min elapsed
+[sweep] start gpt_T64 s1337 on default device
+[sweep] done  gpt_T64 s1337 | val_bpb 2.1646 | 9.3 min elapsed
+[sweep] start gpt_T64 s42 on default device
+[sweep] done  gpt_T64 s42 | val_bpb 2.1514 | 11.5 min elapsed
+[sweep] start gpt_T64 s7 on default device
+[sweep] done  gpt_T64 s7 | val_bpb 2.1607 | 13.7 min elapsed
+[sweep] start gpt_T128 s1337 on default device
+[sweep] done  gpt_T128 s1337 | val_bpb 2.1180 | 15.9 min elapsed
+[sweep] start gpt_T128 s42 on default device
+[sweep] done  gpt_T128 s42 | val_bpb 2.1160 | 18.0 min elapsed
+[sweep] start gpt_T128 s7 on default device
+[sweep] done  gpt_T128 s7 | val_bpb 2.1312 | 20.2 min elapsed
+[sweep] start gpt_T256 s1337 on default device
+[sweep] done  gpt_T256 s1337 | val_bpb 2.0998 | 22.4 min elapsed
+[sweep] start gpt_T256 s42 on default device
+[sweep] done  gpt_T256 s42 | val_bpb 2.1097 | 24.6 min elapsed
+[sweep] start gpt_T256 s7 on default device
+[sweep] done  gpt_T256 s7 | val_bpb 2.1064 | 26.8 min elapsed
+[sweep] start gpt_T512 s1337 on default device
+[sweep] done  gpt_T512 s1337 | val_bpb 2.0970 | 29.1 min elapsed
+[sweep] start gpt_T512 s42 on default device
+[sweep] done  gpt_T512 s42 | val_bpb 2.1012 | 31.3 min elapsed
+[sweep] start gpt_T512 s7 on default device
+[sweep] done  gpt_T512 s7 | val_bpb 2.1140 | 33.6 min elapsed
+[sweep] finished (0 failed in this process). Analyze with:
+   python -m nanolm.analyze <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_context
+ALL_DONE Sun Nov 8 03:55:11 PM PST 2026

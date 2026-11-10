@@ -1,0 +1,51 @@
+[sweep] hw1_lr_controls: 16 runs (0 already done) -> <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_lr_controls
+   rnn_lr8e-3                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=256 train.lr=0.008
+   rnn_lr8e-3                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=256 train.lr=0.008
+   rnn_lr1.6e-2                 seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=256 train.lr=0.016
+   rnn_lr1.6e-2                 seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=256 train.lr=0.016
+   rnn512_lr4e-3                seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=512 train.lr=0.004
+   rnn512_lr4e-3                seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=512 train.lr=0.004
+   rnn512_lr8e-3                seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=512 train.lr=0.008
+   rnn512_lr8e-3                seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="rnn" model.dim=512 train.lr=0.008
+   lstm_lr1e-3                  seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="lstm" model.dim=256 train.lr=0.001
+   lstm_lr1e-3                  seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="lstm" model.dim=256 train.lr=0.001
+   lstm_lr4e-3                  seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="lstm" model.dim=256 train.lr=0.004
+   lstm_lr4e-3                  seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="lstm" model.dim=256 train.lr=0.004
+   gru_lr1e-3                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="gru" model.dim=256 train.lr=0.001
+   gru_lr1e-3                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="gru" model.dim=256 train.lr=0.001
+   gru_lr4e-3                   seed=1337   train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="gru" model.dim=256 train.lr=0.004
+   gru_lr4e-3                   seed=42     train.max_steps=2000 train.seq_len=256 train.batch_size=32 train.weight_decay=0.0 model.n_layers=2 model.arch="gru" model.dim=256 train.lr=0.004
+[sweep] start rnn_lr8e-3 s1337 on default device
+[sweep] done  rnn_lr8e-3 s1337 | val_bpb 2.2424 | 0.3 min elapsed
+[sweep] start rnn_lr8e-3 s42 on default device
+[sweep] done  rnn_lr8e-3 s42 | val_bpb 2.2478 | 0.5 min elapsed
+[sweep] start rnn_lr1.6e-2 s1337 on default device
+[sweep] done  rnn_lr1.6e-2 s1337 | val_bpb 2.4268 | 0.7 min elapsed
+[sweep] start rnn_lr1.6e-2 s42 on default device
+[sweep] done  rnn_lr1.6e-2 s42 | val_bpb 2.4302 | 1.0 min elapsed
+[sweep] start rnn512_lr4e-3 s1337 on default device
+[sweep] done  rnn512_lr4e-3 s1337 | val_bpb 2.1664 | 1.6 min elapsed
+[sweep] start rnn512_lr4e-3 s42 on default device
+[sweep] done  rnn512_lr4e-3 s42 | val_bpb 2.1494 | 2.6 min elapsed
+[sweep] start rnn512_lr8e-3 s1337 on default device
+[sweep] done  rnn512_lr8e-3 s1337 | val_bpb 2.2281 | 3.3 min elapsed
+[sweep] start rnn512_lr8e-3 s42 on default device
+[sweep] done  rnn512_lr8e-3 s42 | val_bpb 2.2283 | 3.9 min elapsed
+[sweep] start lstm_lr1e-3 s1337 on default device
+[sweep] done  lstm_lr1e-3 s1337 | val_bpb 2.2837 | 4.6 min elapsed
+[sweep] start lstm_lr1e-3 s42 on default device
+[sweep] done  lstm_lr1e-3 s42 | val_bpb 2.2848 | 5.2 min elapsed
+[sweep] start lstm_lr4e-3 s1337 on default device
+[sweep] done  lstm_lr4e-3 s1337 | val_bpb 2.1013 | 5.8 min elapsed
+[sweep] start lstm_lr4e-3 s42 on default device
+[sweep] done  lstm_lr4e-3 s42 | val_bpb 2.1009 | 6.4 min elapsed
+[sweep] start gru_lr1e-3 s1337 on default device
+[sweep] done  gru_lr1e-3 s1337 | val_bpb 2.3373 | 7.0 min elapsed
+[sweep] start gru_lr1e-3 s42 on default device
+[sweep] done  gru_lr1e-3 s42 | val_bpb 2.3283 | 7.5 min elapsed
+[sweep] start gru_lr4e-3 s1337 on default device
+[sweep] done  gru_lr4e-3 s1337 | val_bpb 2.1025 | 8.1 min elapsed
+[sweep] start gru_lr4e-3 s42 on default device
+[sweep] done  gru_lr4e-3 s42 | val_bpb 2.1234 | 8.6 min elapsed
+[sweep] finished (0 failed in this process). Analyze with:
+   python -m nanolm.analyze <project>/repo/DeepDataMiningLearning/llm/outputs/nanolm/sweeps/hw1_lr_controls

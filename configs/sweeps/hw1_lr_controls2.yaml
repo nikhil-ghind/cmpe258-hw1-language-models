@@ -1,0 +1,19 @@
+# HW1 part 2 control: LR search for the Transformer, and upper LR bracket for LSTM/GRU (same 16.384M-token budget).
+name: hw1_lr_controls2
+base: ../../../repo/DeepDataMiningLearning/llm/nanolm/configs/02_char_transformer.yaml
+seeds: [1337, 42]
+common:
+  train.max_steps: 2000
+  train.seq_len: 256
+  train.batch_size: 32
+runs:
+  - name: lstm_lr8e-3
+    overrides: {model.arch: lstm, model.n_layers: 2, model.dim: 256, train.lr: 8e-3, train.weight_decay: 0.0}
+  - name: gru_lr8e-3
+    overrides: {model.arch: gru, model.n_layers: 2, model.dim: 256, train.lr: 8e-3, train.weight_decay: 0.0}
+  - name: gpt_modern_lr5e-4
+    overrides: {model.norm: rmsnorm, model.pos: rope, model.mlp: swiglu, model.bias: false, train.lr: 5e-4}
+  - name: gpt_modern_lr2e-3
+    overrides: {model.norm: rmsnorm, model.pos: rope, model.mlp: swiglu, model.bias: false, train.lr: 2e-3}
+  - name: gpt_modern_lr4e-3
+    overrides: {model.norm: rmsnorm, model.pos: rope, model.mlp: swiglu, model.bias: false, train.lr: 4e-3}

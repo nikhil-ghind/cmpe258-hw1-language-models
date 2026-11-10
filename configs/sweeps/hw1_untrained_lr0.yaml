@@ -1,0 +1,18 @@
+# HW1 part 1 control: truly untrained loss (lr=0, so the 1 logged step changes nothing).
+name: hw1_untrained_lr0
+base: ../../../repo/DeepDataMiningLearning/llm/nanolm/configs/02_char_transformer.yaml
+seeds: [1337, 42]
+common:
+  train.max_steps: 1
+  train.lr: 0.0
+  model.norm: rmsnorm
+  model.pos: rope
+  model.mlp: swiglu
+  model.bias: false
+runs:
+  - name: char
+    overrides: {data.tokenizer: char}
+  - name: byte
+    overrides: {data.tokenizer: byte}
+  - name: gpt2
+    overrides: {data.tokenizer: gpt2}
