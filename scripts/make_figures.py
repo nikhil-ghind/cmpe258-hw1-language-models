@@ -121,9 +121,8 @@ plt.close(fig)
 # ------------------------------------------------------------------ Fig 3: context
 c = pd.read_csv(R / "hw1_context" / "summary.csv")
 G = pd.read_csv(R / "context_grid.csv")
-fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.5), sharey=False)
+fig, a = plt.subplots(figsize=(4.4, 2.5))
 Ts = [64, 128, 256, 512]
-a = ax[0]
 for arch, col, lab in (("lstm", C["lstm"], "LSTM 2×256"), ("gpt", C["gpt_modern"], "Modern Transformer")):
     m = [c[c.name == f"{arch}_T{T}"].val_bpb.mean() for T in Ts]
     e = [c[c.name == f"{arch}_T{T}"].val_bpb.std(ddof=1) for T in Ts]
@@ -132,28 +131,11 @@ a.set_xscale("log", base=2)
 a.set_xticks(Ts)
 a.set_xticklabels(Ts)
 a.minorticks_off()
-a.set_xlabel("context length train.seq_len (chars); eval window = train window")
+a.set_xlabel("context length (characters); eval window = train window")
 a.set_ylabel("validation bits per byte")
-a.set_title("A. Assignment metric (3 seeds, mean ± sd)")
+a.set_title("bpb vs. context length (3 seeds, mean ± sd)")
 a.legend()
-a = ax[1]
-Ws = np.array(Ts)
-fit = {}
-for arch, col, lab, Tt in (("lstm", C["lstm"], "LSTM", 512), ("gpt", C["gpt_modern"], "Transformer", 512)):
-    x = G[(G.arch == arch) & (G.train_T == Tt)].groupby("eval_W").bpb.agg(["mean", "std"])
-    b, cc = np.polyfit(1 / Ws, x["mean"].values, 1)[::-1]
-    fit[arch] = (b, cc)
-    a.errorbar(Ws, x["mean"], yerr=x["std"], color=col, marker="o", ms=4, capsize=2, ls="none", label=f"{lab}, trained T=512")
-    fw = np.geomspace(60, 540, 40)
-    a.plot(fw, b + cc / fw, color=col, lw=1.1, ls="--", label=f"{lab} fit: {b:.3f} + {cc:.1f}/W")
-a.set_xscale("log", base=2)
-a.set_xticks(Ts)
-a.set_xticklabels(Ts)
-a.minorticks_off()
-a.set_xlabel("evaluation window W (chars), same model")
-a.set_title("B. Same checkpoints re-scored: bpb ≈ a + c/W")
-a.legend(fontsize=6.3)
-fig.tight_layout(w_pad=1.5)
+fig.tight_layout()
 fig.savefig(F / "fig3_context.png")
 plt.close(fig)
 
@@ -197,4 +179,3 @@ ax[0].set_ylabel("query position", fontsize=6.5)
 fig.tight_layout(w_pad=0.6)
 fig.savefig(F / "fig5_heads.png")
 plt.close(fig)
-print({k: (round(v[0], 4), round(v[1], 2)) for k, v in fit.items()})
